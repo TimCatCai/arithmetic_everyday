@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/KmpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/kmp_test_file.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/Kmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/Test/permutation_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/LinkedNumSumSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/linked_num_sum_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic_everyday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic_everyday.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
@@ -83,15 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KmpTest">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.Test" />
-      <module name="arithmetic_everyday" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedNumSumSolutionTest.addTwoNumbers">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -131,11 +126,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedNumSumSolutionTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timcat.leetcode.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LinkedNumSumSolutionTest" />
+      <option name="METHOD_NAME" value="addTwoNumbers(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationTest.iterationMethod (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timcat.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="timcat.Test" />
       <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="iterationMethod(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,19 +188,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.PermutationTest" />
       <item itemvalue="JUnit.PermutationTest.iterationMethod" />
       <item itemvalue="JUnit.KmpTest.kmp" />
       <item itemvalue="JUnit.KmpTest" />
+      <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
+      <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
+        <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
         <item itemvalue="JUnit.KmpTest" />
         <item itemvalue="JUnit.KmpTest.kmp" />
         <item itemvalue="JUnit.PermutationTest.iterationMethod" />
-        <item itemvalue="JUnit.PermutationTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -215,9 +234,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timcat/leetcode/day1/Kmp.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,0 +1,5 @@
+3,a,b,c,6,a b c,a c b,b a c,b c a,c b a,c a b
+3,ab,cd,ef,6,ab cd ef,ab ef cd,cd ab ef,cd ef ab,ef cd ab,ef ab cd
+3,a,a,a,1,a a a
+3,a,a,b,3,a a b,a b a,b a a
+3,c,a,c,3,c a c,c c a,a c c
