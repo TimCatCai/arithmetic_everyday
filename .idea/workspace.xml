@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+=======
+      <change afterPath="$PROJECT_DIR$/Test/timcat/Test/permutation_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/LinkedNumSumSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/linked_num_sum_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" afterDir="false" />
+    </list>
+>>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SumOfTwo.java" pinned="false" current-in-tab="true">
@@ -73,12 +87,14 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +105,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,33 +156,47 @@
       </pane>
       <pane id="Scope" />
     </panes>
+=======
+  </component>
+  <component name="ProjectId" id="1PRQZW6nbIRGZJSH3MCXXBUNhob" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+>>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="settings.github" />
+=======
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+>>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="timcat.Test" />
       <recent name="timcat.leetcode.day1" />
+      <recent name="timcat.Test" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test/timcat/leetcode/day1" />
       <recent name="E:\Fdisk\JavaCode\arithmetic_everyday" />
       <recent name="E:\Fdisk\JavaCode\arithmetic_everyday\src" />
     </key>
@@ -182,79 +213,121 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PermutationTest.iterationMethod">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.Test" />
-      <module name="arithmetic_everyday" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedNumSumSolutionTest.addTwoNumbers">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="PermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KmpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timcat.leetcode.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.KmpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KmpTest.kmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timcat.leetcode.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.KmpTest" />
+      <option name="METHOD_NAME" value="kmp(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedNumSumSolutionTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timcat.leetcode.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LinkedNumSumSolutionTest" />
+      <option name="METHOD_NAME" value="addTwoNumbers(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationTest.iterationMethod (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timcat.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="timcat.Test" />
       <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+      <option name="METHOD_NAME" value="iterationMethod(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PermutationTest.iterationMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="timcat.Test" />
       <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest" />
       <option name="METHOD_NAME" value="iterationMethod" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-ea" />
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.PermutationTest" />
       <item itemvalue="JUnit.PermutationTest.iterationMethod" />
+      <item itemvalue="JUnit.KmpTest.kmp" />
+      <item itemvalue="JUnit.KmpTest" />
+      <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
+      <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
+        <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
+        <item itemvalue="JUnit.KmpTest" />
+        <item itemvalue="JUnit.KmpTest.kmp" />
         <item itemvalue="JUnit.PermutationTest.iterationMethod" />
-        <item itemvalue="JUnit.PermutationTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +344,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="PermutationTest_iterationMethod - 2019.07.25 at 11h 37m 47s.xml">
       <configuration name="PermutationTest.iterationMethod" configurationId="JUnit" />
@@ -314,12 +388,33 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -645,4 +740,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
 </project>
