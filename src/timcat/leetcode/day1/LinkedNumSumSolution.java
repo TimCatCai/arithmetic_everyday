@@ -23,6 +23,7 @@ import java.util.List;
 
 // 这里要特别注意没有头结点的处理：　可以手动添加一个头节点，之后返回结果时去掉头结点
 // 注意对进位的处理：1. 当链表的长度一致时 2. 当链表的长度不一致，之后剩下的尾数与进位相加之后仍有进位
+
 public class LinkedNumSumSolution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // 给结果链表添加一个头结点方便后面的操作，返回结果时去掉该节点
@@ -92,7 +93,6 @@ public class LinkedNumSumSolution {
         solveFinalCarry(c, resultList);
     }
 }
-
 
 // Definition for singly-linked list.
 class ListNode {

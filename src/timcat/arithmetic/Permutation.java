@@ -1,4 +1,4 @@
-package timcat.leetcode.day1;
+package timcat.arithmetic;
 
 import java.util.*;
 

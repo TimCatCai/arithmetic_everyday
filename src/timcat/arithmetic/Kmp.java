@@ -1,4 +1,4 @@
-package timcat.leetcode.day1;
+package timcat.arithmetic;
 
 import java.util.ArrayList;
 public class Kmp {
@@ -7,13 +7,13 @@ public class Kmp {
         int [] next = new int[subString.length() + 1];
         int i = 0;
         next[i] = -1;
-        int next_compare_index = -1 ;
+        int nextCompareIndex = -1 ;
         while(i < subString.length()){
-            if(next_compare_index < 0 || subString.charAt(i) == subString.charAt(next_compare_index)){
+            if(nextCompareIndex < 0 || subString.charAt(i) == subString.charAt(nextCompareIndex)){
                 i++;
-                next[i] = ++ next_compare_index;
+                next[i] = ++ nextCompareIndex;
             }else{
-                next_compare_index = next[next_compare_index];
+                nextCompareIndex = next[nextCompareIndex];
             }
         }
 
