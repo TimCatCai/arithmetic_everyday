@@ -1,772 +1,601 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="ChangeListManager">
-        <list default="true" id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="">
-            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false"
-                    afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false"/>
-        </list>
-        <ignored path="$PROJECT_DIR$/out/"/>
-        <change afterPath="$PROJECT_DIR$/Test/timcat/Test/permutation_test.csv" afterDir="false"/>
-        <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/LinkedNumSumSolutionTest.java" afterDir="false"/>
-        <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/linked_num_sum_data.csv" afterDir="false"/>
-        <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java" afterDir="false"/>
-        <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java" afterDir="false"/>
-        <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false"
-                afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false"/>
-        <change beforePath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" beforeDir="false"
-                afterPath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" afterDir="false"/>
-        <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class"
-                beforeDir="false"
-                afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class"
-                afterDir="false"/>
-        <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class"
-                beforeDir="false"
-                afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class"
-                afterDir="false"/>
-        <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" beforeDir="false"
-                afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" afterDir="false"/>
+  <component name="ChangeListManager">
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/LongestNoRepetitionSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/longest_no_repetition_substring_file.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Combination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/LinkedNumSumSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/LinkedNumSumSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/LongestNoRepetitionSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/LongestNoRepetitionSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/leetcode/day1/KmpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/leetcode/day1/KmpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/leetcode/day1/LinkedNumSumSolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/leetcode/day1/LinkedNumSumSolutionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/leetcode/day1/linked_num_sum_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/leetcode/day1/linked_num_sum_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true"/>
-    <option name="SHOW_DIALOG" value="false"/>
-    <option name="HIGHLIGHT_CONFLICTS" value="true"/>
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
-    <option name="LAST_RESOLUTION" value="IGNORE"/>
-</component>
-<component name="FileEditorManager">
-<leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-    <file leaf-file-name="SumOfTwo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6">
-                    <caret line="69" column="9" selection-start-line="69" selection-start-column="9"
-                           selection-end-line="70" selection-end-column="19"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="KmpTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/timcat/leetcode/day1/KmpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
-    </file>
-    <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                    <caret line="12" column="13" selection-start-line="12" selection-start-column="13"
-                           selection-end-line="12" selection-end-column="13"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
+      </file>
+      <file leaf-file-name="LongestNoRepetitionSubstring.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="60" column="39" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
-    </file>
-    <file leaf-file-name="PermutationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
-                    <caret line="27" column="1" selection-start-line="27" selection-start-column="1"
-                           selection-end-line="27" selection-end-column="1"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
+      </file>
+      <file leaf-file-name="longest_no_repetition_substring_file.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/timcat/leetcode/day1/longest_no_repetition_substring_file.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
-    </file>
-    <file leaf-file-name="Combination.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Combination.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                    <caret line="7" column="7" selection-start-line="7" selection-start-column="7"
-                           selection-end-line="7" selection-end-column="7"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
+      </file>
+      <file leaf-file-name="LongestNoRepetitionSubstringTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/timcat/leetcode/day1/LongestNoRepetitionSubstringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
-    </file>
-    <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Test.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                    <caret line="2" column="13" selection-start-line="2" selection-start-column="13"
-                           selection-end-line="2" selection-end-column="13"/>
-                </state>
-            </provider>
-        </entry>
-    </file>
-</leaf>
-</component>
-<component name="FileTemplateManagerImpl">
-<option name="RECENT_TEMPLATES">
-    <list>
-        <option value="JUnit4 Test Class"/>
-        <option value="JUnit5 Test Class"/>
-        <option value="Class"/>
-    </list>
-</option>
-</component>
-<component name="FindInProjectRecents">
-<replaceStrings>
-    <replace/>
-</replaceStrings>
-</component>
-<component name="Git.Settings">
-<option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$"/>
-</component>
-<component name="IdeDocumentHistory">
-<option name="CHANGED_PATHS">
-    <list>
-        <option value="$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTow.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/leetcode/day1/Test.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/leetcode/day1/Combination.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/Test/PermutationTest.groovy"/>
-        <option value="$PROJECT_DIR$/src/timcat/Test/CombinationTest.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/leetcode/day1/PermutationTest.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/Test/PermutationTest.java"/>
-        <option value="$PROJECT_DIR$/Test/PermutationTest.java"/>
-        <option value="$PROJECT_DIR$/src/timcat/Test/timcat/Test/PermutationTest.java"/>
-        <option value="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java"/>
-    </list>
-</option>
-</component>
-<component name="ProjectFrameBounds" extendedState="6">
-<option name="x" value="-10"/>
-<option name="y" value="-10"/>
-<option name="width" value="980"/>
-<option name="height" value="1050"/>
-</component>
-<component name="ProjectLevelVcsManager" settingsEditedManually="true"/>
-<component name="ProjectView">
-<navigator proportions="" version="1">
-    <foldersAlwaysOnTop value="true"/>
-</navigator>
-<panes>
-    <pane id="AndroidView"/>
-    <pane id="PackagesPane"/>
-    <pane id="ProjectPane">
-        <subPane>
-            <expand>
-                <path>
-                    <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode"/>
-                    <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode"/>
-                </path>
-                <path>
-                    <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode"/>
-                    <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                </path>
-            </expand>
-            <select/>
-        </subPane>
-    </pane>
-    <pane id="Scope"/>
-</panes>
-</component>
-<component name="ProjectId" id="1PRQZW6nbIRGZJSH3MCXXBUNhob"/>
-<component name="ProjectLevelVcsManager">
-<ConfirmationsSetting value="2" id="Add"/>
->>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
-</component>
-<component name="PropertiesComponent">
-<property name="Downloaded.Files.Path.Enabled" value="false"/>
-<property name="Repository.Attach.Annotations" value="false"/>
-<property name="Repository.Attach.JavaDocs" value="true"/>
-<property name="Repository.Attach.Sources" value="false"/>
-<property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true"/>
-<property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5"/>
-<property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit"
-          value="groovy.util.GroovyTestCase"/>
-<property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value=""/>
-<property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value=""/>
-<property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true"/>
-<property name="create.test.in.the.same.root" value="true"/>
-<property name="last_opened_file_path" value="$PROJECT_DIR$"/>
-<property name="project.structure.last.edited" value="Modules"/>
-<property name="project.structure.proportion" value="0.15"/>
-<property name="project.structure.side.proportion" value="0.2"/>
-<property name="settings.editor.selected.configurable" value="settings.github"/>
-<property name="restartRequiresConfirmation" value="false"/>
-<property name="settings.editor.selected.configurable" value="http.proxy"/>
-</component>
-<component name="RecentsManager">
-<key name="CreateTestDialog.RecentsKey">
-    <recent name="timcat.leetcode.day1"/>
-    <recent name="timcat.Test"/>
-</key>
-<key name="CreateTestDialog.Recents.Supers">
-    <recent name=""/>
-    <recent name="groovy.util.GroovyTestCase"/>
-</key>
-<key name="MoveFile.RECENT_KEYS">
-    <recent name="$PROJECT_DIR$/Test/timcat/leetcode/day1"/>
-    <recent name="E:\Fdisk\JavaCode\arithmetic_everyday"/>
-    <recent name="E:\Fdisk\JavaCode\arithmetic_everyday\src"/>
-</key>
-</component>
-<component name="RunDashboard">
-<option name="ruleStates">
-    <list>
-        <RuleState>
-            <option name="name" value="ConfigurationTypeDashboardGroupingRule"/>
-        </RuleState>
-        <RuleState>
-            <option name="name" value="StatusDashboardGroupingRule"/>
-        </RuleState>
-    </list>
-</option>
-</component>
-<component name="RunManager" selected="JUnit.LinkedNumSumSolutionTest.addTwoNumbers">
-<configuration default="true" type="Application" factoryName="Application">
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<configuration name="KmpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-    <module name="arithmetic_everyday"/>
-    <extension name="coverage">
-        <pattern>
-            <option name="PATTERN" value="timcat.leetcode.day1.*"/>
-            <option name="ENABLED" value="true"/>
-        </pattern>
-    </extension>
-    <option name="PACKAGE_NAME" value="timcat.leetcode.day1"/>
-    <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.KmpTest"/>
-    <option name="TEST_OBJECT" value="class"/>
-    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%"/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<configuration name="KmpTest.kmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-    <module name="arithmetic_everyday"/>
-    <extension name="coverage">
-        <pattern>
-            <option name="PATTERN" value="timcat.leetcode.day1.*"/>
-            <option name="ENABLED" value="true"/>
-        </pattern>
-    </extension>
-    <option name="PACKAGE_NAME" value="timcat.leetcode.day1"/>
-    <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.KmpTest"/>
-    <option name="METHOD_NAME" value="kmp(org.junit.jupiter.params.aggregator.ArgumentsAccessor)"/>
-    <option name="TEST_OBJECT" value="method"/>
-    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%"/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<configuration name="LinkedNumSumSolutionTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true"
-               nameIsGenerated="true">
-    <module name="arithmetic_everyday"/>
-    <extension name="coverage">
-        <pattern>
-            <option name="PATTERN" value="timcat.leetcode.day1.*"/>
-            <option name="ENABLED" value="true"/>
-        </pattern>
-    </extension>
-    <option name="PACKAGE_NAME" value="timcat.leetcode.day1"/>
-    <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LinkedNumSumSolutionTest"/>
-    <option name="METHOD_NAME" value="addTwoNumbers(org.junit.jupiter.params.aggregator.ArgumentsAccessor)"/>
-    <option name="TEST_OBJECT" value="method"/>
-    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%"/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<configuration name="PermutationTest.iterationMethod (1)" type="JUnit" factoryName="JUnit" temporary="true"
-               nameIsGenerated="true">
-    <module name="arithmetic_everyday"/>
-    <extension name="coverage">
-        <pattern>
-            <option name="PATTERN" value="timcat.Test.*"/>
-            <option name="ENABLED" value="true"/>
-        </pattern>
-    </extension>
-    <option name="PACKAGE_NAME" value="timcat.Test"/>
-    <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest"/>
-    <option name="METHOD_NAME" value="iterationMethod(org.junit.jupiter.params.aggregator.ArgumentsAccessor)"/>
-    <option name="TEST_OBJECT" value="method"/>
-    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%"/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<configuration name="PermutationTest.iterationMethod" type="JUnit" factoryName="JUnit" temporary="true"
-               nameIsGenerated="true">
-    <module name="arithmetic_everyday"/>
-    <option name="PACKAGE_NAME" value="timcat.Test"/>
-    <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest"/>
-    <option name="METHOD_NAME" value="iterationMethod"/>
-    <option name="TEST_OBJECT" value="method"/>
-    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%"/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<configuration default="true" type="JUnit" factoryName="JUnit">
-    <option name="TEST_OBJECT" value="class"/>
-    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%"/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<configuration default="true" type="TestNG">
-    <option name="TEST_OBJECT" value="CLASS"/>
-    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%"/>
-    <properties/>
-    <listeners/>
-    <method v="2">
-        <option name="Make" enabled="true"/>
-    </method>
-</configuration>
-<list>
-    <item itemvalue="JUnit.PermutationTest.iterationMethod"/>
-    <item itemvalue="JUnit.KmpTest.kmp"/>
-    <item itemvalue="JUnit.KmpTest"/>
-    <item itemvalue="JUnit.PermutationTest.iterationMethod (1)"/>
-    <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers"/>
-</list>
-<recent_temporary>
-    <list>
-        <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers"/>
-        <item itemvalue="JUnit.PermutationTest.iterationMethod (1)"/>
-        <item itemvalue="JUnit.KmpTest"/>
-        <item itemvalue="JUnit.KmpTest.kmp"/>
-        <item itemvalue="JUnit.PermutationTest.iterationMethod"/>
-    </list>
-</recent_temporary>
-</component>
-<component name="SvnConfiguration">
-<configuration/>
-</component>
-<component name="TaskManager">
-<task active="true" id="Default" summary="Default task">
-    <changelist id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment=""/>
-    <created>1563524583991</created>
-    <option name="number" value="Default"/>
-    <option name="presentableId" value="Default"/>
-    <updated>1563524583991</updated>
-</task>
-<servers/>
-</component>
-<component name="TestHistory">
-<history-entry file="PermutationTest_iterationMethod - 2019.07.25 at 11h 37m 47s.xml">
-    <configuration name="PermutationTest.iterationMethod" configurationId="JUnit"/>
-</history-entry>
-<history-entry file="PermutationTest_iterationMethod - 2019.07.25 at 11h 42m 14s.xml">
-    <configuration name="PermutationTest.iterationMethod" configurationId="JUnit"/>
-</history-entry>
-</component>
-<component name="ToolWindowManager">
-<frame x="-7" y="-7" width="1550" height="848" extended-state="6"/>
-<editor active="true"/>
-<layout>
-    <window_info anchor="right" id="Palette" order="3"/>
-    <window_info anchor="bottom" id="TODO" order="6"/>
-    <window_info anchor="right" id="Palette&#9;" order="3"/>
-    <window_info id="Image Layers" order="2"/>
-    <window_info anchor="right" id="Capture Analysis" order="3"/>
-    <window_info anchor="bottom" id="Event Log" order="7" side_tool="true"/>
-    <window_info anchor="right" id="Maven Projects" order="3"/>
-    <window_info anchor="bottom" id="Run" order="2" weight="0.3497191"/>
-    <window_info anchor="bottom" id="Version Control" order="7"/>
-    <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.11251758"/>
-    <window_info id="Capture Tool" order="2"/>
-    <window_info id="Designer" order="2"/>
-    <window_info content_ui="combo" id="Project" order="0" weight="0.3344504"/>
-    <window_info anchor="bottom" id="Statistic" order="7"/>
-    <window_info id="Structure" order="1" side_tool="true" weight="0.25"/>
-    <window_info anchor="right" id="Ant Build" order="1" weight="0.25"/>
-    <window_info id="UI Designer" order="2"/>
-    <window_info anchor="right" id="Theme Preview" order="3"/>
-    <window_info anchor="bottom" id="Debug" order="3" weight="0.4"/>
-    <window_info id="Favorites" order="2" side_tool="true"/>
-    <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25"/>
-    <window_info anchor="bottom" id="Inspection" order="5" weight="0.4"/>
-    <window_info anchor="bottom" id="Messages" order="7" weight="0.3286517"/>
-    <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4"/>
-    <window_info anchor="bottom" id="Message" order="0"/>
-    <window_info anchor="bottom" id="Cvs" order="4" weight="0.25"/>
-    <window_info anchor="bottom" id="Find" order="1"/>
-</layout>
-</component>
-<component name="VcsContentAnnotationSettings">
-<option name="myLimit" value="2678400000"/>
-<component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-        <map>
-            <entry key="MAIN">
-                <value>
-                    <State>
-                        <option name="COLUMN_ORDER"/>
-                    </State>
-                </value>
-            </entry>
-        </map>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
     </option>
-    >>>>>>> e99c762ddfed48a9f3b8464279f21ef7adc452c4
-</component>
-<component name="XDebuggerManager">
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>head</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/Test/timcat/leetcode/day1/LongestNoRepetitionSubstringTest.java" />
+        <option value="$PROJECT_DIR$/Test/timcat/leetcode/day1/longest_no_repetition_substring_file.csv" />
+        <option value="$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="timcat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="timcat" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="timcat" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="timcat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="timcat" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic_everyday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic_everyday" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="timcat" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="timcat.leetcode.day1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LongestNoRepetitionSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LongestNoRepetitionSubstringTest.lengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
+      <option name="METHOD_NAME" value="lengthOfLongestSubstring(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LongestNoRepetitionSubstringTest.slideWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
+      <option name="METHOD_NAME" value="slideWindow(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
+      <option name="METHOD_NAME" value="slideWindowWithHashMap(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
+      <option name="METHOD_NAME" value="slideWindowWithHashSet(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest" />
+      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindow" />
+      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.lengthOfLongestSubstring" />
+      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashSet" />
+      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap" />
+        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashSet" />
+        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindow" />
+        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.lengthOfLongestSubstring" />
+        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="" />
+      <created>1568723536114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568723536114</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 02m 53s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 06m 36s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 10m 16s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 11m 16s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 11m 21s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 14m 41s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 16m 24s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindowWithHashSet - 2019.09.17 at 23h 19m 31s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_slideWindow - 2019.09.17 at 23h 19m 38s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.slideWindow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestNoRepetitionSubstringTest_lengthOfLongestSubstring - 2019.09.17 at 23h 19m 46s.xml">
+      <configuration name="LongestNoRepetitionSubstringTest.lengthOfLongestSubstring" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32911393" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.51898736" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32911393" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Statistic" order="4" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4838256" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.5203938" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32911393" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="bottom" id="Statistic" order="0" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32911393" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
     <breakpoint-manager>
-        <breakpoints>
-            <line-breakpoint enabled="true" type="java-line">
-                <url>file://$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java</url>
-                <line>34</line>
-                <option name="timeStamp" value="8"/>
-            </line-breakpoint>
-        </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
-</component>
-<component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-                <caret line="71" column="63" selection-start-line="71" selection-start-column="63"
-                       selection-end-line="71" selection-end-column="63"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-                <caret line="12" column="13" selection-start-line="12" selection-start-column="13"
-                       selection-end-line="12" selection-end-column="13"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
+    <entry file="file://$PROJECT_DIR$/arithmetic_everyday.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-                <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27"
-                       selection-end-column="1"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
+    <entry file="file://$PROJECT_DIR$/Test/timcat/leetcode/day1/KmpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Combination.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-                <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7"
-                       selection-end-column="7"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
+    <entry file="jar://E:/ProgramSoftware/JavaJDK/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="1313" column="19" lean-forward="true" selection-start-line="1313" selection-start-column="19" selection-end-line="1313" selection-end-column="19" />
+          <folding>
+            <element signature="e#49043#49044#0" expanded="true" />
+            <element signature="e#49082#49083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Test.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2"
-                       selection-end-column="13"/>
-            </state>
-        </provider>
+    <entry file="file://$PROJECT_DIR$/Test/timcat/leetcode/day1/longest_no_repetition_substring_file.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-                <caret line="71" column="63" selection-start-line="71" selection-start-column="63"
-                       selection-end-line="71" selection-end-column="63"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
+    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-                <caret line="12" column="13" selection-start-line="12" selection-start-column="13"
-                       selection-end-line="12" selection-end-column="13"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
+    <entry file="file://$PROJECT_DIR$/Test/timcat/leetcode/day1/LongestNoRepetitionSubstringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-                <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27"
-                       selection-end-column="1"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Combination.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-                <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7"
-                       selection-end-column="7"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Test.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2"
-                       selection-end-column="13"/>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1750">
-                <caret line="71" column="63" selection-start-line="71" selection-start-column="63"
-                       selection-end-line="71" selection-end-column="63"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-                <caret line="12" column="13" selection-start-line="12" selection-start-column="13"
-                       selection-end-line="12" selection-end-column="13"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-                <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1"
-                       selection-end-line="27" selection-end-column="1"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Test.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2"
-                       selection-end-column="13"/>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Combination.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-                <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21"
-                       selection-end-line="23" selection-end-column="21"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-                <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13"
-                       selection-end-line="81" selection-end-column="13"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-                <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3"
-                       selection-end-column="21"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-                <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21"
-                       selection-end-line="3" selection-end-column="21"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/Test/PermutationTest.groovy"/>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/PermutationTest.java"/>
-    <entry file="file://$PROJECT_DIR$/src/timcat/Test/CombinationTest.java"/>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/SumOfTwo.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-                <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="70"
-                       selection-end-column="19"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/PermutationTest.java"/>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Test.class">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-                <caret line="14" column="18" selection-start-line="14" selection-start-column="18"
-                       selection-end-line="14" selection-end-column="18"/>
-            </state>
-        </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/After.class">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16"/>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-                <caret line="12" column="13" selection-start-line="12" selection-start-column="13"
-                       selection-end-line="12" selection-end-column="13"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-                <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27"
-                       selection-end-column="1"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Test.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2"
-                       selection-end-column="13"/>
-            </state>
-        </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timcat/leetcode/day1/Combination.java">
-        <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-                <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7"
-                       selection-end-column="7"/>
-                <folding>
-                    <element signature="imports" expanded="true"/>
-                </folding>
-            </state>
-        </provider>
-    </entry>
-</component>
-<component name="masterDetails">
+  </component>
+  <component name="masterDetails">
     <states>
-        <state key="ArtifactsStructureConfigurable.UI">
-            <settings>
-                <artifact-editor/>
-                <splitter-proportions>
-                    <option name="proportions">
-                        <list>
-                            <option value="0.2"/>
-                        </list>
-                    </option>
-                </splitter-proportions>
-            </settings>
-        </state>
-        <state key="FacetStructureConfigurable.UI">
-            <settings>
-                <last-edited>No facets are configured</last-edited>
-                <splitter-proportions>
-                    <option name="proportions">
-                        <list>
-                            <option value="0.2"/>
-                        </list>
-                    </option>
-                </splitter-proportions>
-            </settings>
-        </state>
-        <state key="GlobalLibrariesConfigurable.UI">
-            <settings>
-                <splitter-proportions>
-                    <option name="proportions">
-                        <list>
-                            <option value="0.2"/>
-                        </list>
-                    </option>
-                </splitter-proportions>
-            </settings>
-        </state>
-        <state key="JdkListConfigurable.UI">
-            <settings>
-                <last-edited>1.8</last-edited>
-                <splitter-proportions>
-                    <option name="proportions">
-                        <list>
-                            <option value="0.2"/>
-                        </list>
-                    </option>
-                </splitter-proportions>
-            </settings>
-        </state>
-        <state key="ModuleStructureConfigurable.UI">
-            <settings>
-                <last-edited>arithmetic_everyday</last-edited>
-                <splitter-proportions>
-                    <option name="proportions">
-                        <list>
-                            <option value="0.2"/>
-                            <option value="0.6"/>
-                        </list>
-                    </option>
-                </splitter-proportions>
-            </settings>
-        </state>
-        <state key="ProjectJDKs.UI">
-            <settings>
-                <last-edited>1.8</last-edited>
-                <splitter-proportions>
-                    <option name="proportions">
-                        <list>
-                            <option value="0.2"/>
-                        </list>
-                    </option>
-                </splitter-proportions>
-            </settings>
-        </state>
-        <state key="ProjectLibrariesConfigurable.UI">
-            <settings>
-                <splitter-proportions>
-                    <option name="proportions">
-                        <list>
-                            <option value="0.2"/>
-                        </list>
-                    </option>
-                </splitter-proportions>
-            </settings>
-        </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>arithmetic_everyday</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.junit.jupiter:junit-jupiter:5.5.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
     </states>
-</component>
+  </component>
 </project>
