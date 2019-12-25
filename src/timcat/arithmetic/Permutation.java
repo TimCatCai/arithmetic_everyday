@@ -72,7 +72,7 @@ public class Permutation {
                 permutationRecBase(data, step + 1, result);
 
                 // 恢复交换前状态
-                temp = new String(data[i]);
+                temp = data[i];
                 data[i] = data[step];
                 data[step] = temp;
             }

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/dynamic_programming/ClimbStairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/dynamic_programming/climb_stairs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/arithmetic/JosephusProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/dynamic_programming/ClimbStairs.java" afterDir="false" />
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="完成单向链表从头到尾的反转">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/data_structure/list/LinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Kmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic_everyday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic_everyday.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/arithmetic/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/arithmetic/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/arithmetic/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/arithmetic/Permutation.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,13 +30,9 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>head</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,10 +41,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,19 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.ClimbStairsTest.recursion">
+  <component name="RunManager" selected="Kotlin.timcat.data_structure.list.LinkedListKt">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -84,28 +84,6 @@
       <option name="PACKAGE_NAME" value="timcat.leetcode.dynamic_programming" />
       <option name="MAIN_CLASS_NAME" value="timcat.leetcode.dynamic_programming.ClimbStairsTest" />
       <option name="METHOD_NAME" value="recursion(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestNoRepetitionSubstringTest.lengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
-      <option name="METHOD_NAME" value="lengthOfLongestSubstring(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestNoRepetitionSubstringTest.slideWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
-      <option name="METHOD_NAME" value="slideWindow(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -134,6 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PermutationTest.iterationMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="PACKAGE_NAME" value="timcat.Test" />
+      <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest" />
+      <option name="METHOD_NAME" value="iterationMethod(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -141,22 +130,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="timcat.data_structure.list.LinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="timcat.data_structure.list.LinkedListKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindow" />
-      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.lengthOfLongestSubstring" />
-      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashSet" />
-      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap" />
       <item itemvalue="JUnit.ClimbStairsTest.recursion" />
+      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap" />
+      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashSet" />
+      <item itemvalue="JUnit.PermutationTest.iterationMethod" />
+      <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
+        <item itemvalue="JUnit.PermutationTest.iterationMethod" />
         <item itemvalue="JUnit.ClimbStairsTest.recursion" />
         <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap" />
         <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashSet" />
-        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindow" />
-        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.lengthOfLongestSubstring" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,6 +206,33 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="完成单向链表从头到尾的反转" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成单向链表从头到尾的反转" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="388" y="10" key="CommitChangelistDialog2" timestamp="1577280467785">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="388" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577280467785" />
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1577280468181">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577280468181" />
+    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1577280468180">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1577280468180" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1577280468180">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1577280468180" />
+    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1577280468181">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1577280468181" />
   </component>
   <component name="masterDetails">
     <states>
