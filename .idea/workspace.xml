@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="完成单向链表从头到尾的反转">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/data_structure/list/LinkedList.kt" afterDir="false" />
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }">
+      <change afterPath="$PROJECT_DIR$/Test/timcat/arithmetic/dynamic_programming/bag_arithmetic/BagArithmeticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/arithmetic/dynamic_programming/bag_arithmetic/napsack.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/arithmetic/dynamic_programming/bag_arithmetic/BagArithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/arithmetic/dynamic_programming/bag_arithmetic/Goods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic_everyday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic_everyday.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/arithmetic/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/arithmetic/Permutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timcat/arithmetic/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/arithmetic/Permutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +39,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -57,10 +47,11 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
       <recent name="timcat.leetcode.dynamic_programming" />
       <recent name="timcat.leetcode.day1" />
     </key>
@@ -68,10 +59,18 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.timcat.data_structure.list.LinkedListKt">
+  <component name="RunManager" selected="JUnit.BagArithmeticTest.MFKnapsack">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timcat.Main" />
+      <module name="arithmetic_everyday" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -79,44 +78,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbStairsTest.recursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BagArithmeticTest.MFKnapsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.leetcode.dynamic_programming" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.dynamic_programming.ClimbStairsTest" />
-      <option name="METHOD_NAME" value="recursion(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
+      <option name="METHOD_NAME" value="MFKnapsack(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BagArithmeticTest.napsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
-      <option name="METHOD_NAME" value="slideWindowWithHashMap(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
+      <option name="METHOD_NAME" value="napsack(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestNoRepetitionSubstringTest.slideWindowWithHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BagArithmeticTest.printTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LongestNoRepetitionSubstringTest" />
-      <option name="METHOD_NAME" value="slideWindowWithHashSet(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationTest.iterationMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.Test" />
-      <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest" />
-      <option name="METHOD_NAME" value="iterationMethod(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
+      <option name="METHOD_NAME" value="printTable([Ljava.lang.String;,int[][])" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -144,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ClimbStairsTest.recursion" />
-      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap" />
-      <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashSet" />
-      <item itemvalue="JUnit.PermutationTest.iterationMethod" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BagArithmeticTest.printTable" />
+      <item itemvalue="JUnit.BagArithmeticTest.napsack" />
+      <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
       <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
+        <item itemvalue="JUnit.BagArithmeticTest.napsack" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BagArithmeticTest.printTable" />
         <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
-        <item itemvalue="JUnit.PermutationTest.iterationMethod" />
-        <item itemvalue="JUnit.ClimbStairsTest.recursion" />
-        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashMap" />
-        <item itemvalue="JUnit.LongestNoRepetitionSubstringTest.slideWindowWithHashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +171,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568723536114</updated>
     </task>
+    <task id="LOCAL-00001" summary=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }">
+      <created>1577280495937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577280495937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -210,104 +206,69 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="完成单向链表从头到尾的反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成单向链表从头到尾的反转" />
+    <MESSAGE value=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }" />
+    <option name="LAST_COMMIT_MESSAGE" value=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="10" key="CommitChangelistDialog2" timestamp="1577280467785">
+    <state x="387" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578322050946">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="388" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577280467785" />
-    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1577280468181">
+    <state x="387" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1578322050946" />
+    <state x="388" y="10" key="CommitChangelistDialog2" timestamp="1577280491419">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577280468181" />
-    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1577280468180">
+    <state x="388" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577280491419" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1577522796754">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1577280468180" />
-    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1577280468180">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1577522796754" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1578409795246">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1577280468180" />
-    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1577280468181">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578409795246" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1578409795245">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1577280468181" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>arithmetic_everyday</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>org.junit.jupiter:junit-jupiter:5.5.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578409795245" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1578409795245">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578409795245" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1578409795246">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795246" />
+    <state width="1493" height="569" key="GridCell.Tab.1.bottom" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state width="1493" height="569" key="GridCell.Tab.1.center" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state width="1493" height="569" key="GridCell.Tab.1.left" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state width="1493" height="569" key="GridCell.Tab.1.right" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1578321909655">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1578321909655" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1578404297267">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1578404297267" />
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578409241763">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1578409241763" />
+    <state x="178" y="112" key="new project wizard" timestamp="1577522880933">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1577522880933" />
   </component>
 </project>
