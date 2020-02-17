@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/timcat/Test/permutation_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/LinkedNumSumSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/day1/linked_num_sum_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/LongestNoRepetitionSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/timcat/Test/PermutationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic_everyday/timcat/leetcode/day1/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/arithmetic_everyday/timcat/Test/PermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/day1/Permutation.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,11 +40,6 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -47,12 +52,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/geetime_java_concurrence_course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -68,6 +73,18 @@
       <recent name="E:\Fdisk\JavaCode\arithmetic_everyday" />
       <recent name="E:\Fdisk\JavaCode\arithmetic_everyday\src" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.LinkedNumSumSolutionTest.addTwoNumbers">
     <configuration default="true" type="Application" factoryName="Application">
@@ -171,11 +188,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.KmpTest" />
-      <item itemvalue="JUnit.KmpTest.kmp" />
-      <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
-      <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
       <item itemvalue="JUnit.PermutationTest.iterationMethod" />
+      <item itemvalue="JUnit.KmpTest.kmp" />
+      <item itemvalue="JUnit.KmpTest" />
+      <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
+      <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
     </list>
     <recent_temporary>
       <list>
@@ -187,20 +204,8 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -224,24 +229,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="172" y="31" key="SettingsEditor" timestamp="1581914636853">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1581914636853" />
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581914358010">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1581914358010" />
-    <state x="277" y="190" width="861" height="413" key="git4idea.merge.GitPullDialog" timestamp="1581915433735">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="277" y="190" width="861" height="413" key="git4idea.merge.GitPullDialog/0.27.1366.741@0.27.1366.741" timestamp="1581915433735" />
-    <state x="383" y="299" width="589" height="195" key="git4idea.ui.GitStashDialog" timestamp="1581915471163">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="383" y="299" width="589" height="195" key="git4idea.ui.GitStashDialog/0.27.1366.741@0.27.1366.741" timestamp="1581915471163" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

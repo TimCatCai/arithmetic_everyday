@@ -1,4 +1,4 @@
-package timcat.leetcode.day1;
+package timcat.arithmetic;
 
 import java.util.*;
 
@@ -72,7 +72,7 @@ public class Permutation {
                 permutationRecBase(data, step + 1, result);
 
                 // 恢复交换前状态
-                temp = new String(data[i]);
+                temp = data[i];
                 data[i] = data[step];
                 data[step] = temp;
             }
