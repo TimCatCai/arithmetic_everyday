@@ -18,8 +18,21 @@ class LinkedListArithmeticTest {
         linkedListArithmetic.printList(list);
     }
 
-    @Test
-    void reversePartly() {
+    @ParameterizedTest
+    @CsvFileSource(resources = "reverse_partly_test_file.csv")
+    void reversePartly(ArgumentsAccessor argumentsAccessor) {
+            int len = argumentsAccessor.getInteger(0);
+            int pairs = argumentsAccessor.getInteger(len + 1);
+            for(int i = 0; i < pairs; i++){
+                Linked_list list = createList(argumentsAccessor);
+                int m = argumentsAccessor.getInteger(len + 2 + 2*i);
+                int n = argumentsAccessor.getInteger(len + 2 + 2*i + 1);
+                System.out.println("m=" + m + " n=" + n);
+                linkedListArithmetic.printList(list);
+                linkedListArithmetic.reversePartly(list,m,n);
+                linkedListArithmetic.printList(list);
+                System.out.println();
+            }
     }
 
     @ParameterizedTest

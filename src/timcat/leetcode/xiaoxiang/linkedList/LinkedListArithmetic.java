@@ -35,6 +35,8 @@ public class LinkedListArithmetic {
         }
         Node preHead = null;
         Node beiginNode = list.head;
+        int start = m;
+        int end = n;
         while (beiginNode != null && m > beginIndex) {
             m--;
             preHead = beiginNode;
@@ -44,12 +46,13 @@ public class LinkedListArithmetic {
         Node node = beiginNode;
         Node postTail = beiginNode;
         Node newHead = null;
-
-        while (n != m && postTail != null){
+        m = start;
+        while (m <= end && postTail != null){
             postTail = postTail.next;
             node.next = newHead;
             newHead = node;
             node = postTail;
+            m++;
         }
         // 这里的判断是为解决当m大于链表长度，即逆置的起始坐标大于链表长度时，tail = null;
         //　此种情况对其他位置没有影响
