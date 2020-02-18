@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/linkedList/linked_lists_file.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Linked_list.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="finish testing LinkedListArithmetic printlist and reverseAll method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +25,17 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="timcat &lt;1264299131@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PRQZW6nbIRGZJSH3MCXXBUNhob" />
@@ -56,7 +59,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -224,6 +227,14 @@
       <option name="presentableId" value="Default" />
       <updated>1563524583991</updated>
     </task>
+    <task id="LOCAL-00001" summary="finish testing LinkedListArithmetic printlist and reverseAll method">
+      <created>1581941967597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581941967597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +250,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish testing LinkedListArithmetic printlist and reverseAll method" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish testing LinkedListArithmetic printlist and reverseAll method" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="360" y="201" width="636" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581941119707">
       <screen x="0" y="27" width="1366" height="741" />
@@ -248,6 +263,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="524" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1581916132877" />
+    <state x="237" y="27" width="881" height="741" key="CommitChangelistDialog2" timestamp="1581997406695">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="237" y="27" width="881" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1581997406695" />
     <state width="1320" height="289" key="GridCell.Tab.0.bottom" timestamp="1581941865305">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -264,6 +283,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="289" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581941865304" />
+    <state x="172" y="31" key="SettingsEditor" timestamp="1581996278362">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1581996278362" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581942032722">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1581942032722" />
     <state x="393" y="117" width="569" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581940368253">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
