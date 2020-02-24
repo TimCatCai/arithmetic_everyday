@@ -9,19 +9,19 @@ public class LinkedListArithmetic {
     /**
      * leetcode 206
      * 反转一个单链表。
-     *
+     * <p>
      * 示例:
-     *
+     * <p>
      * 输入: 1->2->3->4->5->NULL
      * 输出: 5->4->3->2->1->NULL
      * 进阶:
      * 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/reverse-linked-list
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      * 逆置整一条链表
-     *
+     * <p>
      * 方法一：递归求法
      */
     void reverseAll(Linked_list list) {
@@ -45,23 +45,23 @@ public class LinkedListArithmetic {
     /**
      * leetcode 206
      * 反转一个单链表。
-     *
+     * <p>
      * 示例:
-     *
+     * <p>
      * 输入: 1->2->3->4->5->NULL
      * 输出: 5->4->3->2->1->NULL
      * 进阶:
      * 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/reverse-linked-list
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      * 逆置整一条链表
-     *
+     * <p>
      * 方法二：递归求法
      */
     public ListNode reverseList(ListNode head) {
-        if(head == null || head.next == null){
+        if (head == null || head.next == null) {
             return head;
         }
         // 一直历遍到最后，递归一直返回链表的最后一个节点
@@ -71,32 +71,33 @@ public class LinkedListArithmetic {
         head.next = null;
         return newHead;
     }
+
     /**
      * leetcode 206
      * 反转一个单链表。
-     *
+     * <p>
      * 示例:
-     *
+     * <p>
      * 输入: 1->2->3->4->5->NULL
      * 输出: 5->4->3->2->1->NULL
      * 进阶:
      * 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/reverse-linked-list
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      * 逆置整一条链表
-     *
+     * <p>
      * 方法三：双指针法
      */
     public ListNode reverseList2(ListNode head) {
-        if(head == null){
+        if (head == null) {
             return null;
         }
         ListNode pre = null;
         ListNode next = head;
         ListNode temp;
-        while(next != null){
+        while (next != null) {
             temp = next.next;
             next.next = pre;
             pre = next;
@@ -107,21 +108,22 @@ public class LinkedListArithmetic {
 
     /**
      * 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
-     *
+     * <p>
      * 说明:
      * 1 ≤ m ≤ n ≤ 链表长度。
-     *
+     * <p>
      * 示例:
-     *
+     * <p>
      * 输入: 1->2->3->4->5->NULL, m = 2, n = 4
      * 输出: 1->4->3->2->5->NULL
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/reverse-linked-list-ii
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-     *
+     * <p>
      * 逆置链表的部分
      * 这里因为没有记录链表的节点个数，所以不检测m,n的合理性
+     *
      * @param list 即将转置的链表
      * @param m    开始转置的节点坐标，从1开始，若小于１则默认不转置
      * @param n    转置的结束节点坐标, 若n大于链表的长度，则默认转置到链表尾，若n<=m默认不转置．
@@ -182,51 +184,51 @@ public class LinkedListArithmetic {
 
     /**
      * 计算链表的相交结点
-     *编写一个程序，找到两个单链表相交的起始节点。
-     *
+     * 编写一个程序，找到两个单链表相交的起始节点。
+     * <p>
      * 如下面的两个链表：
-     *
-     *
-     *
+     * <p>
+     * <p>
+     * <p>
      * 在节点 c1 开始相交。
-     *
+     * <p>
      *  
-     *
+     * <p>
      * 示例 1：
-     *
-     *
-     *
+     * <p>
+     * <p>
+     * <p>
      * 输入：intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
      * 输出：Reference of the node with value = 8
      * 输入解释：相交节点的值为 8 （注意，如果两个列表相交则不能为 0）。从各自的表头开始算起，链表 A 为 [4,1,8,4,5]，链表 B 为 [5,0,1,8,4,5]。在 A 中，相交节点前有 2 个节点；在 B 中，相交节点前有 3 个节点。
      *  
-     *
+     * <p>
      * 示例 2：
-     *
-     *
-     *
+     * <p>
+     * <p>
+     * <p>
      * 输入：intersectVal = 2, listA = [0,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
      * 输出：Reference of the node with value = 2
      * 输入解释：相交节点的值为 2 （注意，如果两个列表相交则不能为 0）。从各自的表头开始算起，链表 A 为 [0,9,1,2,4]，链表 B 为 [3,2,4]。在 A 中，相交节点前有 3 个节点；在 B 中，相交节点前有 1 个节点。
      *  
-     *
+     * <p>
      * 示例 3：
-     *
-     *
-     *
+     * <p>
+     * <p>
+     * <p>
      * 输入：intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
      * 输出：null
      * 输入解释：从各自的表头开始算起，链表 A 为 [2,6,4]，链表 B 为 [1,5]。由于这两个链表不相交，所以 intersectVal 必须为 0，而 skipA 和 skipB 可以是任意值。
      * 解释：这两个链表不相交，因此返回 null。
      *  
-     *
+     * <p>
      * 注意：
-     *
+     * <p>
      * 如果两个链表没有交点，返回 null.
      * 在返回结果后，两个链表仍须保持原有的结构。
      * 可假定整个链表结构中没有循环。
      * 程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/intersection-of-two-linked-lists
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -295,42 +297,38 @@ public class LinkedListArithmetic {
      * 判断是否有环
      * 141
      * 给定一个链表，判断链表中是否有环。
-     *
+     * <p>
      * 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
-     *
-     *
+     * <p>
+     * <p>
      * 示例 1：
-     *
+     * <p>
      * 输入：head = [3,2,0,-4], pos = 1
      * 输出：true
      * 解释：链表中有一个环，其尾部连接到第二个节点。
-     *
-     *
+     * <p>
+     * <p>
      * 示例 2：
-     *
+     * <p>
      * 输入：head = [1,2], pos = 0
      * 输出：true
      * 解释：链表中有一个环，其尾部连接到第一个节点。
-     *
-     *
+     * <p>
+     * <p>
      * 示例 3：
-     *
+     * <p>
      * 输入：head = [1], pos = -1
      * 输出：false
      * 解释：链表中没有环。
-     *
-     *
-     *  
-     *
      * 进阶：
-     *
+     * <p>
      * 你能用 O(1)（即，常量）内存解决此问题吗？
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/linked-list-cycle
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-     *
-     *
+     * <p>
+     * <p>
      * 方法一：用set记录所历遍过的结点，之后判断是否在set中，第一个在set中的结点为环的起始结点
      *
      * @param head 链表的头结点
@@ -349,11 +347,12 @@ public class LinkedListArithmetic {
     /**
      * 判断是否有环
      * 方法二：快慢指针，见onenote/leetcode/141 142
+     *
      * @param head 链表的头结点
      * @return true 链表有环 false 链表没有环
      */
     public boolean hasCycle2(ListNode head) {
-        if(head == null){
+        if (head == null) {
             return false;
         }
 
@@ -377,53 +376,55 @@ public class LinkedListArithmetic {
         }
         return fastPointer != null;
     }
+
     /**
      * 142
      * 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
-     *
+     * <p>
      * 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
-     *
+     * <p>
      * 说明：不允许修改给定的链表。
-     *
+     * <p>
      *  
-     *
+     * <p>
      * 示例 1：
-     *
+     * <p>
      * 输入：head = [3,2,0,-4], pos = 1
      * 输出：tail connects to node index 1
      * 解释：链表中有一个环，其尾部连接到第二个节点。
-     *
-     *
+     * <p>
+     * <p>
      * 示例 2：
-     *
+     * <p>
      * 输入：head = [1,2], pos = 0
      * 输出：tail connects to node index 0
      * 解释：链表中有一个环，其尾部连接到第一个节点。
-     *
-     *
+     * <p>
+     * <p>
      * 示例 3：
-     *
+     * <p>
      * 输入：head = [1], pos = -1
      * 输出：no cycle
      * 解释：链表中没有环。
-     *
-     *
+     * <p>
+     * <p>
      *  
-     *
+     * <p>
      * 进阶：
      * 你是否可以不用额外空间解决此题？
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/linked-list-cycle-ii
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-     *
+     * <p>
      * 判断是否有环升级版，返回环开始结点
      * 方法一：set，同上
+     *
      * @param head 链表的头结点
      * @return null 链表没有环，否则返回链表开始结点
      */
     public ListNode detectCycle(ListNode head) {
-        if(head == null){
+        if (head == null) {
             return null;
         }
         Set<ListNode> set = new HashSet<>();
@@ -434,14 +435,16 @@ public class LinkedListArithmetic {
         }
         return head;
     }
+
     /**
      * 判断是否有环升级版，返回环开始结点
      * 方法二：快慢指针，见onenote/leetcode/141 142
+     *
      * @param head 链表的头结点
      * @return null 链表没有环，否则返回链表开始结点
      */
     public ListNode detectCycle2(ListNode head) {
-        if(head == null){
+        if (head == null) {
             return null;
         }
 
@@ -466,8 +469,8 @@ public class LinkedListArithmetic {
             }
         }
 
-        if(meet != null){
-            while(head != meet){
+        if (meet != null) {
+            while (head != meet) {
                 head = head.next;
                 meet = meet.next;
             }
@@ -476,4 +479,72 @@ public class LinkedListArithmetic {
         return null;
     }
 
+
+    /**
+     * 19. 删除链表的倒数第N个节点
+     * 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
+     * 示例：
+     * 给定一个链表: 1->2->3->4->5, 和 n = 2.
+     * <p>
+     * 当删除了倒数第二个节点后，链表变为 1->2->3->5.
+     * 说明:
+     * 给定的 n 保证是有效的。
+     * <p>
+     * 进阶：
+     * 你能尝试使用一趟扫描实现吗？
+     *
+     * 方法一：两次历遍
+     * @param head 链表头结点
+     * @param n 倒数第n个
+     * @return 新链表头结点
+     */
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        int len = calculateLinkedListLength(head);
+        if (head == null || n <= 0 || len < n) {
+            return head;
+        }
+        // 要求删除倒数第len个即第一个时，直接返回第2个节点。
+        if (n == len) {
+            return head.next;
+        }
+
+        ListNode node = head;
+        for (int i = 0; i < len - n - 1; i++) {
+            node = node.next;
+        }
+        // 这里不用额外处理倒数第一的情况，因为这里指向的是倒数第n个的前一个节点。
+        node.next = node.next.next;
+        return head;
+    }
+
+    /**
+     * 方法二：一次历遍
+     * 双指针，一个指针先移动n个位置到达n+1下标处
+     * @param head 链表头结点
+     * @param n 倒数第n个
+     * @return 新链表头结点
+     */
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+        int len = calculateLinkedListLength(head);
+        if (head == null || n <= 0 || len < n) {
+            return head;
+        }
+        // 要求删除倒数第len个即第一个时，直接返回第2个节点。
+        if (n == len) {
+            return head.next;
+        }
+
+        ListNode pre = head;
+        ListNode pos = head;
+        for(int i = 0; i < n;i++){
+            pos = pos.next;
+        }
+        while(pos.next != null){
+            pos = pos.next;
+            pre = pre.next;
+        }
+        pre.next = pre.next.next;
+        return head;
+    }
 }

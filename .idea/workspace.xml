@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="BagArithmetic">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="finish if linkedList hasCycle and commit leetcode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Linked_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Linked_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577280495937</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish if linkedList hasCycle and commit leetcode">
+      <created>1582551681547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582551681547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +202,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="完成单向链表从头到尾的反转" />
     <MESSAGE value=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }" />
-    <option name="LAST_COMMIT_MESSAGE" value=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }" />
+    <MESSAGE value="finish if linkedList hasCycle and commit leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish if linkedList hasCycle and commit leetcode" />
   </component>
   <component name="WindowStateProjectService">
     <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581997781665">
@@ -223,10 +226,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582010571457" />
-    <state x="388" y="10" key="CommitChangelistDialog2" timestamp="1582551663199">
+    <state x="446" y="20" key="CommitChangelistDialog2" timestamp="1582553288060">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="388" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582551663199" />
+    <state x="446" y="20" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582553288060" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1577522796754">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -263,10 +266,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="569" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1582514580378">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1582551784119">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582514580378" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582551784119" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582551720494">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582551720494" />
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582513525413">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
