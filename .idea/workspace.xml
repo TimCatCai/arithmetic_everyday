@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="finish testing LinkedListArithmetic printlist and reverseAll method">
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="BagArithmetic">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmeticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Linked_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Linked_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,158 +18,95 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
+        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="timcat &lt;1264299131@qq.com&gt;" />
-      </list>
-    </option>
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="1PRQZW6nbIRGZJSH3MCXXBUNhob" />
+  <component name="ProjectId" id="1U6n0lPEMKX8jhA9jcperimec5D" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="timcat.leetcode.xiaoxiang.linkedList" />
+      <recent name="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
+      <recent name="timcat.leetcode.dynamic_programming" />
       <recent name="timcat.leetcode.day1" />
-      <recent name="timcat.Test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-      <recent name="groovy.util.GroovyTestCase" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Test/timcat/leetcode/day1" />
-      <recent name="E:\Fdisk\JavaCode\arithmetic_everyday" />
-      <recent name="E:\Fdisk\JavaCode\arithmetic_everyday\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListArithmeticTest.reverseAll">
+  <component name="RunManager" selected="JUnit.BagArithmeticTest.MFKnapsack">
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timcat.Main" />
+      <module name="arithmetic_everyday" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KmpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BagArithmeticTest.MFKnapsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timcat.leetcode.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.KmpTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListArithmeticTest.printList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arithmetic_everyday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timcat.leetcode.xiaoxiang.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timcat.leetcode.xiaoxiang.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.xiaoxiang.linkedList.LinkedListArithmeticTest" />
-      <option name="METHOD_NAME" value="printList(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
+      <option name="METHOD_NAME" value="MFKnapsack(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListArithmeticTest.reverseAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BagArithmeticTest.napsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timcat.leetcode.xiaoxiang.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timcat.leetcode.xiaoxiang.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.xiaoxiang.linkedList.LinkedListArithmeticTest" />
-      <option name="METHOD_NAME" value="reverseAll(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
+      <option name="METHOD_NAME" value="napsack(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedNumSumSolutionTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BagArithmeticTest.printTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timcat.leetcode.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timcat.leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.day1.LinkedNumSumSolutionTest" />
-      <option name="METHOD_NAME" value="addTwoNumbers(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationTest.iterationMethod (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arithmetic_everyday" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timcat.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="timcat.Test" />
-      <option name="MAIN_CLASS_NAME" value="timcat.Test.PermutationTest" />
-      <option name="METHOD_NAME" value="iterationMethod(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
+      <option name="METHOD_NAME" value="printTable([Ljava.lang.String;,int[][])" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -178,29 +120,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
+    <configuration name="timcat.data_structure.list.LinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="timcat.data_structure.list.LinkedListKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.KmpTest" />
-      <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
-      <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
-      <item itemvalue="JUnit.LinkedListArithmeticTest.printList" />
-      <item itemvalue="JUnit.LinkedListArithmeticTest.reverseAll" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BagArithmeticTest.printTable" />
+      <item itemvalue="JUnit.BagArithmeticTest.napsack" />
+      <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
+      <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListArithmeticTest.reverseAll" />
-        <item itemvalue="JUnit.LinkedListArithmeticTest.printList" />
-        <item itemvalue="JUnit.PermutationTest.iterationMethod (1)" />
-        <item itemvalue="JUnit.LinkedNumSumSolutionTest.addTwoNumbers" />
-        <item itemvalue="JUnit.KmpTest" />
+        <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
+        <item itemvalue="JUnit.BagArithmeticTest.napsack" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BagArithmeticTest.printTable" />
+        <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,18 +167,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0f37c6a5-7e34-4b01-a4e0-3a85a0482ff3" name="Default" comment="" />
-      <created>1563524583991</created>
+      <changelist id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="" />
+      <created>1568723536114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563524583991</updated>
+      <updated>1568723536114</updated>
     </task>
-    <task id="LOCAL-00001" summary="finish testing LinkedListArithmetic printlist and reverseAll method">
-      <created>1581941967597</created>
+    <task id="LOCAL-00001" summary=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }">
+      <created>1577280495937</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1581941967597</updated>
+      <updated>1577280495937</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -251,60 +197,95 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finish testing LinkedListArithmetic printlist and reverseAll method" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish testing LinkedListArithmetic printlist and reverseAll method" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="完成单向链表从头到尾的反转" />
+    <MESSAGE value=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }" />
+    <option name="LAST_COMMIT_MESSAGE" value=" fun reverseBetween(head: ListNode?, m: Int, n: Int): ListNode? {&#10;                     &#10;                 }" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="201" width="636" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581941119707">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581997781665">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="360" y="201" width="636" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1581941119707" />
-    <state x="524" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581916132877">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1581997781665" />
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582513835548">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="524" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1581916132877" />
-    <state x="237" y="27" width="881" height="741" key="CommitChangelistDialog2" timestamp="1581997406695">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1582513835548" />
+    <state x="387" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578322050946">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="237" y="27" width="881" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1581997406695" />
-    <state width="1320" height="289" key="GridCell.Tab.0.bottom" timestamp="1581941865305">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="387" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1578322050946" />
+    <state x="543" y="276" width="467" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582012051980">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581941865305" />
-    <state width="1320" height="289" key="GridCell.Tab.0.center" timestamp="1581941865304">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="543" y="276" width="467" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1582012051980" />
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582010571457">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1581941865304" />
-    <state width="1320" height="289" key="GridCell.Tab.0.left" timestamp="1581941865303">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582010571457" />
+    <state x="388" y="10" key="CommitChangelistDialog2" timestamp="1582551663199">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1581941865303" />
-    <state width="1320" height="289" key="GridCell.Tab.0.right" timestamp="1581941865304">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="388" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582551663199" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1577522796754">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1320" height="289" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581941865304" />
-    <state x="172" y="31" key="SettingsEditor" timestamp="1581996278362">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1577522796754" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1578409795246">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1581996278362" />
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581942032722">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578409795246" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1578409795245">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1581942032722" />
-    <state x="393" y="117" width="569" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581940368253">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578409795245" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1578409795245">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="117" width="569" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1581940368253" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/timcat/leetcode/day1/LinkedNumSumSolution.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578409795245" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1578409795246">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795246" />
+    <state width="1493" height="569" key="GridCell.Tab.1.bottom" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state width="1493" height="569" key="GridCell.Tab.1.center" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state width="1493" height="569" key="GridCell.Tab.1.left" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state width="1493" height="569" key="GridCell.Tab.1.right" timestamp="1578409795242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="569" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1582514580378">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582514580378" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582513525413">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582513525413" />
+    <state x="562" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582009183200">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="562" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1582009183200" />
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578409241763">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1578409241763" />
+    <state x="178" y="112" key="new project wizard" timestamp="1577522880933">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1577522880933" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1582517726190">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1582517726190" />
   </component>
 </project>

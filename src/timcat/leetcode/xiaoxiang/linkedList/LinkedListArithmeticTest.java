@@ -7,14 +7,14 @@ class LinkedListArithmeticTest {
     Linked_list list = new Linked_list();
     LinkedListArithmetic arithmetic = new LinkedListArithmetic();
     {
-        Node head = new Node(1);
-        Node node = new Node(2);
-        head.next = node;
-        node.next = new Node(3);
-        node = node.next;
-        node.next = new Node(4);
-        node = node.next;
-        node.next = new Node(5);
+        ListNode head = new ListNode(1);
+        ListNode listNode = new ListNode(2);
+        head.next = listNode;
+        listNode.next = new ListNode(3);
+        listNode = listNode.next;
+        listNode.next = new ListNode(4);
+        listNode = listNode.next;
+        listNode.next = new ListNode(5);
         list.head = head;
     }
     @Test
@@ -34,11 +34,11 @@ class LinkedListArithmeticTest {
         arithmetic.printList(list);
         list = new Linked_list();
         arithmetic.printList(list);
-        list.head = new Node(1);
+        list.head = new ListNode(1);
         arithmetic.printList(list);
-        list.head.next = new Node(2);
+        list.head.next = new ListNode(2);
         arithmetic.printList(list);
-        list.head.next.next = new Node(3);
+        list.head.next.next = new ListNode(3);
         arithmetic.printList(list);
     }
 }
