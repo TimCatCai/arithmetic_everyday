@@ -1195,6 +1195,42 @@ public class LinkedListArithmetic {
         pre.next = null;
         return head;
     }
-
+    /**
+     * 83. 删除排序链表中的重复元素
+     * 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+     *
+     * 示例 1:
+     *
+     * 输入: 1->1->2
+     * 输出: 1->2
+     * 示例 2:
+     *
+     * 输入: 1->1->2->3->3
+     * 输出: 1->2->3
+     * 时间：O(n)
+     * 空间：O(1)
+     * @param head 所要操作链表的头节点
+     * @return 新的链表的头节点
+     */
+    public ListNode deleteDuplicates(ListNode head) {
+        if(head == null){
+            return null;
+        }
+        int currentValue = head.val;
+        ListNode pre = head;
+        ListNode tempNode = head.next;
+        while(tempNode != null){
+            if(tempNode.val == currentValue){
+                // 重复节点，删除该节点
+                pre.next = tempNode.next;
+            }else{
+                // 非重复节点，更新当前值并移动pre指针
+                currentValue = tempNode.val;
+                pre = tempNode;
+            }
+            tempNode = tempNode.next;
+        }
+        return head;
+    }
 }
 
