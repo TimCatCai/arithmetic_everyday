@@ -1,9 +1,6 @@
 package timcat.leetcode.xiaoxiang.linkedList;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class LinkedListArithmetic {
     /**
@@ -620,9 +617,10 @@ public class LinkedListArithmetic {
      * <p>
      * 输入: head = 1->4->3->2->5->2, x = 3
      * 输出: 1->2->2->4->3->5
-     *  @param head 链表头结点
-     *  @param x 作为参考的x值
-     *  @return 新链表的头结点
+     *
+     * @param head 链表头结点
+     * @param x    作为参考的x值
+     * @return 新链表的头结点
      */
 
     public ListNode partition(ListNode head, int x) {
@@ -656,7 +654,7 @@ public class LinkedListArithmetic {
         } else {
             less = more;
         }
-        if(moreTail != null){
+        if (moreTail != null) {
             moreTail.next = null;
         }
         return less;
@@ -664,8 +662,9 @@ public class LinkedListArithmetic {
 
     /**
      * 建立临时头节点，简化代码
+     *
      * @param head 链表头结点
-     * @param x 作为参考的x值
+     * @param x    作为参考的x值
      * @return 新链表的头结点
      */
     public ListNode partition2(ListNode head, int x) {
@@ -691,5 +690,122 @@ public class LinkedListArithmetic {
     }
 
 
+    // Definition for a Node.
+    class Node {
+        int val;
+        Node next;
+        Node random;
+
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
+        }
+
+    }
+
+    /**
+     * 138 & 35. 复制带随机指针的链表
+     * 给定一个链表，每个节点包含一个额外增加的随机指针，该指针可以指向链表中的任何节点或空节点。
+     * <p>
+     * 要求返回这个链表的 深拷贝。
+     * <p>
+     * 我们用一个由 n 个节点组成的链表来表示输入/输出中的链表。每个节点用一个 [val, random_index] 表示：
+     * <p>
+     * val：一个表示 Node.val 的整数。
+     * random_index：随机指针指向的节点索引（范围从 0 到 n-1）；如果不指向任何节点，则为  null 。
+     * <p>
+     * <p>
+     * 示例 1：
+     * <p>
+     * <p>
+     * <p>
+     * 输入：head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+     * 输出：[[7,null],[13,0],[11,4],[10,2],[1,0]]
+     * 示例 2：
+     * <p>
+     * <p>
+     * <p>
+     * 输入：head = [[1,1],[2,1]]
+     * 输出：[[1,1],[2,1]]
+     * 示例 3：
+     * <p>
+     * <p>
+     * <p>
+     * 输入：head = [[3,null],[3,0],[3,null]]
+     * 输出：[[3,null],[3,0],[3,null]]
+     * 示例 4：
+     * <p>
+     * 输入：head = []
+     * 输出：[]
+     * 解释：给定的链表为空（空指针），因此返回 null。
+     * <p>
+     * <p>
+     * 提示：
+     * <p>
+     * -10000 <= Node.val <= 10000
+     * Node.random 为空（null）或指向链表中的节点。
+     * 节点数目不超过 1000 。
+     * <p>
+     * 方法一：在第一次循环链表时，建立新链表的next指向
+     *
+     * @param head 链表头节点
+     * @return 新链表头节点
+     */
+    public Node copyRandomList(Node head) {
+        Map<Node, Node> map = new HashMap<>();
+        Node temp = head;
+        // 新链表的临时头节点
+        Node newHead = new Node(0);
+        Node newTail = newHead;
+        while (temp != null) {
+            // 建立新链表的顺序指向
+            newTail.next = new Node(temp.val);
+            newTail = newTail.next;
+            // 将链表所有节点放入哈希表
+            map.put(temp, newTail);
+            temp = temp.next;
+        }
+        Node originList = head;
+        Node newList = newHead.next;
+        // 建立新链表的随机指向
+        while (originList != null && newList != null) {
+            newList.random = map.get(originList.random);
+            originList = originList.next;
+            newList = newList.next;
+        }
+        return newHead.next;
+    }
+
+    /**
+     * 方法二：在第二次循环链表时，建立新链表的next指向和random指向
+     * 与方法一的区别是：方法一只需要查一次哈希表得到random域即可，但需要额外历遍新链表，
+     * 方法二需要查两次哈希表，不需重新历遍新链表
+     *
+     * @param head 链表头节点
+     * @return 新链表头节点
+     */
+    public Node copyRandomList2(Node head) {
+        Map<Node, Node> map = new HashMap<>();
+        Node temp = head;
+        // 新链表的临时头节点
+        Node newHead = new Node(0);
+        Node newTail = newHead;
+        while (temp != null) {
+            // 将链表所有节点放入哈希表
+            map.put(temp, new Node(temp.val));
+            temp = temp.next;
+        }
+        temp = head;
+        while (temp != null) {
+            // 建立新链表next域
+            newTail.next = map.get(temp);
+            newTail = newTail.next;
+            // 建立新链表random域
+            newTail.random = map.get(temp.random);
+            temp = temp.next;
+        }
+        return newHead.next;
+    }
 }
 
