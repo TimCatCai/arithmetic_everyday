@@ -1084,7 +1084,7 @@ public class LinkedListArithmetic {
             for (i = 0; i < k && tempNode != null; i++) {
                 tempNode = tempNode.next;
             }
-            if(k == i && tempNode != null){
+            if (k == i && tempNode != null) {
                 post = tempNode.next;
                 newPartTail = pre.next;
                 // 将要逆置的部分的最后一个节点指向空
@@ -1097,6 +1097,103 @@ public class LinkedListArithmetic {
             }
         }
         return tempHead.next;
+    }
+
+    /**
+     * 61. 旋转链表
+     * 给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
+     * <p>
+     * 示例 1:
+     * <p>
+     * 输入: 1->2->3->4->5->NULL, k = 2
+     * 输出: 4->5->1->2->3->NULL
+     * 解释:
+     * 向右旋转 1 步: 5->1->2->3->4->NULL
+     * 向右旋转 2 步: 4->5->1->2->3->NULL
+     * 示例 2:
+     * <p>
+     * 输入: 0->1->2->NULL, k = 4
+     * 输出: 2->0->1->NULL
+     * 解释:
+     * 向右旋转 1 步: 2->0->1->NULL
+     * 向右旋转 2 步: 1->2->0->NULL
+     * 向右旋转 3 步: 0->1->2->NULL
+     * 向右旋转 4 步: 2->0->1->NULL
+     * 方法一：前后对换法
+     * 时间：O(n)
+     * 空间：O(1)
+     * @param head 所要旋转链表的头指针
+     * @param k    移动的常数k
+     * @return 新链表的头节点
+     */
+    public ListNode rotateRight(ListNode head, int k) {
+        if (head == null || k <= 0) {
+            return head;
+        }
+
+        ListNode tempNode = head;
+        int len = 0;
+        while (tempNode != null) {
+            len++;
+            tempNode = tempNode.next;
+        }
+        // 倒数第n个及以后往前移动
+        int n = k % len;
+        if (n != 0) {
+            tempNode = head;
+            for (int i = 0; i < len - n - 1; i++) {
+                tempNode = tempNode.next;
+            }
+            ListNode newHead = tempNode.next;
+            // 使新链表的最后一个节点的下一个节点为空
+            tempNode.next = null;
+
+            // 将链表的两部分拼接
+            tempNode = newHead;
+            for (int i = 0; i < n - 1; i++) {
+                tempNode = tempNode.next;
+            }
+            tempNode.next = head;
+            return newHead;
+        } else {
+            return head;
+        }
+    }
+
+    /**
+     * 方法二：环形链表法
+     * 时间：O(n)
+     * 空间：O(1)
+     * @param head 所要旋转链表的头指针
+     * @param k    移动的常数k
+     * @return 新链表的头节点
+     */
+    public ListNode rotateRight2(ListNode head, int k) {
+        if (head == null || k <= 0) {
+            return head;
+        }
+
+        ListNode tempNode = head;
+        ListNode pre = head;
+        int len = 0;
+        while (tempNode != null) {
+            len++;
+            pre = tempNode;
+            tempNode = tempNode.next;
+        }
+        // 倒数第n个及以后往前移动
+        int n = k % len;
+        // 链表最后一个和第一相连
+        pre.next = head;
+
+        tempNode = head;
+        for (int i = 0; i < len - n; i++) {
+            pre = pre.next;
+            tempNode = tempNode.next;
+        }
+        head = tempNode;
+        pre.next = null;
+        return head;
     }
 
 }
