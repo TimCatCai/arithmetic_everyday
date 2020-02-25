@@ -807,5 +807,130 @@ public class LinkedListArithmetic {
         }
         return newHead.next;
     }
+
+    /**
+     * 方法三： 一次历遍旧链表
+     * 时间复杂度：O(N)O(N) 。因为我们需要将原链表逐一遍历。
+     * 空间复杂度：O(N)O(N) 。 我们需要维护一个字典，保存旧的节点和新的节点的对应。因此总共需要 NN 个节点，需要 O(N)O(N) 的空间复杂度。
+     *
+     * 作者：LeetCode
+     * 链接：https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/
+     * 来源：力扣（LeetCode）
+     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+     */
+    public Node copyRandomList3(Node head) {
+        Map<Node, Node> map = new HashMap<>();
+        Node temp = head;
+        // 新链表的临时头节点
+        Node newHead = new Node(0);
+        Node newTail = newHead;
+        Node nextNode;
+        Node randomNode;
+        while (temp != null) {
+            // 判断是否在哈希表中
+            nextNode = map.get(temp);
+            if (nextNode == null) {
+                nextNode = new Node(temp.val);
+                map.put(temp, nextNode);
+            }
+
+            // 建立新链表的顺序指向
+            newTail.next = nextNode;
+            newTail = newTail.next;
+
+            // 建立random域指向
+            if(temp.random != null){
+                randomNode = map.get(temp.random);
+                if (randomNode == null) {
+                    randomNode = new Node(temp.random.val);
+                    map.put(temp.random, randomNode);
+                }
+                nextNode.random = randomNode;
+            }
+            temp = temp.next;
+        }
+        return newHead.next;
+    }
+
+    /**
+     * 方法四：图论法
+     * 时间复杂度：O(N)O(N) ，其中 NN 是链表中节点的数目。
+     * 空间复杂度：O(N)O(N) 。如果我们仔细分析，我们需要维护一个回溯的栈，同时也需要记录已经被深拷贝过的节点，也就是维护一个已访问字典。渐进时间复杂度为 O(N)O(N) 。
+     *
+     * 作者：LeetCode
+     * 链接：https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/
+     * 来源：力扣（LeetCode）
+     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+     */
+
+    public Node copyRandomList4(Node head){
+        Map<Node,Node> nodesVisited = new HashMap<>();
+        return copyRandomListGraphic(head,nodesVisited);
+    }
+    public Node copyRandomListGraphic(Node head, Map<Node, Node> nodesVisited){
+        if(head == null || nodesVisited == null){
+            return null;
+        }
+        if(nodesVisited.containsKey(head)){
+            return nodesVisited.get(head);
+        }else{
+            Node newNode;
+            newNode = new Node(head.val);
+            nodesVisited.put(head, newNode);
+            newNode.next = copyRandomListGraphic(head.next, nodesVisited);
+            newNode.random = copyRandomListGraphic(head.random, nodesVisited);
+            return newNode;
+        }
+    }
+
+    /**
+     * 方法四：O(1) 空间的迭代
+     * 时间复杂度：O(N)
+     * 空间复杂度：O(1)
+     * 与上面提到的维护一个旧节点和新节点对应的字典不同，我们通过扭曲原来的链表，并将每个拷贝节点都放在原来对应节点的旁边。
+     * 这种旧节点和新节点交错的方法让我们可以在不需要额外空间的情况下解决这个问题
+     * 作者：LeetCode
+     * 链接：https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/
+     * 来源：力扣（LeetCode）
+     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+     */
+    public Node copyRandomList5(Node head){
+        if(head == null){
+            return null;
+        }
+
+        Node nextNode;
+        Node temp = head;
+        Node newNode;
+        // 构建next域
+        while(temp != null){
+            nextNode = temp.next;
+            newNode = new Node(temp.val);
+            temp.next = newNode;
+            newNode.next = nextNode;
+            temp = nextNode;
+        }
+        // 构建random域
+        temp = head;
+        while(temp != null){
+            if(temp.random != null){
+                temp.next.random = temp.random.next;
+            }
+            temp = temp.next.next;
+        }
+
+        Node newHead = head.next;
+        newNode = newHead;
+        Node originalNode = head;
+        while (newNode.next != null) {
+            originalNode.next = newNode.next;
+            originalNode = originalNode.next;
+            newNode.next = originalNode.next;
+            newNode = newNode.next;
+        }
+        originalNode.next = null;
+        return newHead;
+    }
+
 }
 
