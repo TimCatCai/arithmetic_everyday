@@ -7,8 +7,7 @@ import java.util.Set;
 
 public class LinkedListArithmetic {
     /**
-     * leetcode 206
-     * 反转一个单链表。
+     * leetcode 206 反转一个单链表。
      * <p>
      * 示例:
      * <p>
@@ -43,8 +42,7 @@ public class LinkedListArithmetic {
     }
 
     /**
-     * leetcode 206
-     * 反转一个单链表。
+     * leetcode 206 反转一个单链表。
      * <p>
      * 示例:
      * <p>
@@ -73,8 +71,7 @@ public class LinkedListArithmetic {
     }
 
     /**
-     * leetcode 206
-     * 反转一个单链表。
+     * leetcode 206 反转一个单链表。
      * <p>
      * 示例:
      * <p>
@@ -492,10 +489,11 @@ public class LinkedListArithmetic {
      * <p>
      * 进阶：
      * 你能尝试使用一趟扫描实现吗？
-     *
+     * <p>
      * 方法一：两次历遍
+     *
      * @param head 链表头结点
-     * @param n 倒数第n个
+     * @param n    倒数第n个
      * @return 新链表头结点
      */
 
@@ -521,8 +519,9 @@ public class LinkedListArithmetic {
     /**
      * 方法二：一次历遍
      * 双指针，一个指针先移动n个位置到达n+1下标处
+     *
      * @param head 链表头结点
-     * @param n 倒数第n个
+     * @param n    倒数第n个
      * @return 新链表头结点
      */
     public ListNode removeNthFromEnd2(ListNode head, int n) {
@@ -537,14 +536,160 @@ public class LinkedListArithmetic {
 
         ListNode pre = head;
         ListNode pos = head;
-        for(int i = 0; i < n;i++){
+        for (int i = 0; i < n; i++) {
             pos = pos.next;
         }
-        while(pos.next != null){
+        while (pos.next != null) {
             pos = pos.next;
             pre = pre.next;
         }
         pre.next = pre.next.next;
         return head;
     }
+
+    /**
+     * 21. 合并两个有序链表
+     * 将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
+     * <p>
+     * 示例：
+     * <p>
+     * 输入：1->2->4, 1->3->4
+     * 输出：1->1->2->3->4->4
+     * /**
+     * * Definition for singly-linked list.
+     * * public class ListNode {
+     * *     int val;
+     * *     ListNode next;
+     * *     ListNode(int x) { val = x; }
+     * * }
+     */
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if (l1 == null && l2 == null) {
+            return null;
+        } else if (l1 == null) {
+            return l2;
+        } else if (l2 == null) {
+            return l1;
+        }
+
+        ListNode newHead;
+        ListNode next;
+        // 确定头节点
+        if (l1.val <= l2.val) {
+            newHead = l1;
+            l1 = l1.next;
+        } else {
+            newHead = l2;
+            l2 = l2.next;
+        }
+        // 记录新链表的尾节点
+        ListNode tail = newHead;
+        // 归并后续节点
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                tail.next = l1;
+                l1 = l1.next;
+            } else {
+                tail.next = l2;
+                l2 = l2.next;
+            }
+            tail = tail.next;
+        }
+
+        // 处理剩余节点
+        while (l1 != null) {
+            tail.next = l1;
+            l1 = l1.next;
+            tail = tail.next;
+        }
+        while (l2 != null) {
+            tail.next = l2;
+            l2 = l2.next;
+            tail = tail.next;
+        }
+        return newHead;
+    }
+
+    /**
+     * 86. 分隔链表
+     * 给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。
+     * <p>
+     * 你应当保留两个分区中每个节点的初始相对位置。
+     * <p>
+     * 示例:
+     * <p>
+     * 输入: head = 1->4->3->2->5->2, x = 3
+     * 输出: 1->2->2->4->3->5
+     *  @param head 链表头结点
+     *  @param x 作为参考的x值
+     *  @return 新链表的头结点
+     */
+
+    public ListNode partition(ListNode head, int x) {
+        ListNode more = null;
+        ListNode less = null;
+        ListNode moreTail = null;
+        ListNode lessTail = null;
+        while (head != null) {
+            if (head.val < x) {
+                if (less == null) {
+                    less = head;
+                    lessTail = less;
+                } else {
+                    lessTail.next = head;
+                    lessTail = lessTail.next;
+                }
+            } else {
+                if (more == null) {
+                    more = head;
+                    moreTail = more;
+                } else {
+                    moreTail.next = head;
+                    moreTail = moreTail.next;
+                }
+            }
+
+            head = head.next;
+        }
+        if (less != null) {
+            lessTail.next = more;
+        } else {
+            less = more;
+        }
+        if(moreTail != null){
+            moreTail.next = null;
+        }
+        return less;
+    }
+
+    /**
+     * 建立临时头节点，简化代码
+     * @param head 链表头结点
+     * @param x 作为参考的x值
+     * @return 新链表的头结点
+     */
+    public ListNode partition2(ListNode head, int x) {
+        // 建立两个临时头节点
+        ListNode moreHead = new ListNode(0);
+        ListNode lessHead = new ListNode(0);
+        ListNode moreTail = moreHead;
+        ListNode lessTail = lessHead;
+        while (head != null) {
+            if (head.val < x) {
+                lessTail.next = head;
+                lessTail = lessTail.next;
+            } else {
+                moreTail.next = head;
+                moreTail = moreTail.next;
+            }
+            head = head.next;
+        }
+        lessTail.next = moreHead.next;
+        // moreTail 一定要置空，否则会形成环，陷入死循环
+        moreTail.next = null;
+        return lessHead.next;
+    }
+
+
 }
+
