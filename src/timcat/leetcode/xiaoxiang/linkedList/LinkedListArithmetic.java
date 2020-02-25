@@ -608,6 +608,46 @@ public class LinkedListArithmetic {
     }
 
     /**
+     * 23. 合并K个排序链表
+     * 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
+     * <p>
+     * 示例:
+     * <p>
+     * 输入:
+     * [
+     * 1->4->5,
+     * 1->3->4,
+     * 2->6
+     * ]
+     * 输出: 1->1->2->3->4->4->5->6
+     * <p>
+     * 方法：分治法
+     *
+     * @param lists 包含所有链表头指针的数组
+     * @return 返回合并后的链表头指针
+     */
+    public ListNode mergeKLists(ListNode[] lists) {
+        if (lists == null || lists.length <= 0) {
+            return null;
+        }
+        if (lists.length == 1) {
+            return lists[0];
+        }
+
+        ArrayList<ListNode> newLists = new ArrayList<>(lists.length / 2 + 1);
+        for (int i = 0; i < lists.length; i += 2) {
+            if (i + 1 >= lists.length) {
+                // 剩下最后一个链表，直接放入新链表头指针数组
+                newLists.add(lists[i]);
+            } else {
+                // 有成对的链表，合并
+                newLists.add(mergeTwoLists(lists[i], lists[i + 1]));
+            }
+        }
+        return mergeKLists(newLists.toArray(new ListNode[0]));
+    }
+
+    /**
      * 86. 分隔链表
      * 给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。
      * <p>
@@ -812,7 +852,7 @@ public class LinkedListArithmetic {
      * 方法三： 一次历遍旧链表
      * 时间复杂度：O(N)O(N) 。因为我们需要将原链表逐一遍历。
      * 空间复杂度：O(N)O(N) 。 我们需要维护一个字典，保存旧的节点和新的节点的对应。因此总共需要 NN 个节点，需要 O(N)O(N) 的空间复杂度。
-     *
+     * <p>
      * 作者：LeetCode
      * 链接：https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/
      * 来源：力扣（LeetCode）
@@ -839,7 +879,7 @@ public class LinkedListArithmetic {
             newTail = newTail.next;
 
             // 建立random域指向
-            if(temp.random != null){
+            if (temp.random != null) {
                 randomNode = map.get(temp.random);
                 if (randomNode == null) {
                     randomNode = new Node(temp.random.val);
@@ -856,24 +896,25 @@ public class LinkedListArithmetic {
      * 方法四：图论法
      * 时间复杂度：O(N)O(N) ，其中 NN 是链表中节点的数目。
      * 空间复杂度：O(N)O(N) 。如果我们仔细分析，我们需要维护一个回溯的栈，同时也需要记录已经被深拷贝过的节点，也就是维护一个已访问字典。渐进时间复杂度为 O(N)O(N) 。
-     *
+     * <p>
      * 作者：LeetCode
      * 链接：https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-by-leetcod/
      * 来源：力扣（LeetCode）
      * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
 
-    public Node copyRandomList4(Node head){
-        Map<Node,Node> nodesVisited = new HashMap<>();
-        return copyRandomListGraphic(head,nodesVisited);
+    public Node copyRandomList4(Node head) {
+        Map<Node, Node> nodesVisited = new HashMap<>();
+        return copyRandomListGraphic(head, nodesVisited);
     }
-    public Node copyRandomListGraphic(Node head, Map<Node, Node> nodesVisited){
-        if(head == null || nodesVisited == null){
+
+    public Node copyRandomListGraphic(Node head, Map<Node, Node> nodesVisited) {
+        if (head == null || nodesVisited == null) {
             return null;
         }
-        if(nodesVisited.containsKey(head)){
+        if (nodesVisited.containsKey(head)) {
             return nodesVisited.get(head);
-        }else{
+        } else {
             Node newNode;
             newNode = new Node(head.val);
             nodesVisited.put(head, newNode);
@@ -894,8 +935,8 @@ public class LinkedListArithmetic {
      * 来源：力扣（LeetCode）
      * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
-    public Node copyRandomList5(Node head){
-        if(head == null){
+    public Node copyRandomList5(Node head) {
+        if (head == null) {
             return null;
         }
 
@@ -903,7 +944,7 @@ public class LinkedListArithmetic {
         Node temp = head;
         Node newNode;
         // 构建next域
-        while(temp != null){
+        while (temp != null) {
             nextNode = temp.next;
             newNode = new Node(temp.val);
             temp.next = newNode;
@@ -912,8 +953,8 @@ public class LinkedListArithmetic {
         }
         // 构建random域
         temp = head;
-        while(temp != null){
-            if(temp.random != null){
+        while (temp != null) {
+            if (temp.random != null) {
                 temp.next.random = temp.random.next;
             }
             temp = temp.next.next;
@@ -931,6 +972,7 @@ public class LinkedListArithmetic {
         originalNode.next = null;
         return newHead;
     }
+
 
 }
 
