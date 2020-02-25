@@ -1232,5 +1232,55 @@ public class LinkedListArithmetic {
         }
         return head;
     }
+
+    /**
+     * 82. 删除排序链表中的重复元素 II
+     * 给定一个排序链表，删除所有含有重复数字的节点，只保留原始链表中 没有重复出现 的数字。
+     *
+     * 示例 1:
+     *
+     * 输入: 1->2->3->3->4->4->5
+     * 输出: 1->2->5
+     * 示例 2:
+     *
+     * 输入: 1->1->1->2->3
+     * 输出: 2->3
+     * @param head 所要操作链表的头节点
+     * @return 新的链表的头节点
+     */
+    public ListNode deleteDuplicates2(ListNode head) {
+        if(head == null){
+            return null;
+        }
+        // 建立临时头节点
+        ListNode tempHead = new ListNode(0);
+        tempHead.next = head;
+        ListNode pre = tempHead;
+        ListNode tempNode = head.next;
+        int currentValue = head.val;
+        int count = 0;
+        while(tempNode != null){
+            if(tempNode.val == currentValue){
+                count ++;
+            }else{
+                if(count >= 1){
+                  // 有重复节点，删除
+                  pre.next = tempNode;
+                  count = 0;
+                }else{
+                    // 无重复节点，移动pre
+                    pre = pre.next;
+                }
+                currentValue = tempNode.val;
+            }
+            tempNode = tempNode.next;
+        }
+        // 处理最后可能的重复节点
+        if(count >= 1){
+            pre.next = null;
+        }
+        return tempHead.next;
+    }
+
 }
 
