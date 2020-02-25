@@ -986,6 +986,11 @@ public class LinkedListArithmetic {
      * 给定 1->2->3->4, 你应该返回 2->1->4->3.
      * @param head 要进行交换的链表的头指针
      * @return 新的链表的头指针
+     *
+     * 复杂度分析
+     * 时间复杂度：O(N)，其中 NN 指的是链表的节点数量。
+     * 空间复杂度：O(1)。
+     * 链接：https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-19/
      */
     public ListNode swapPairs(ListNode head) {
         if(head == null){
@@ -1011,6 +1016,33 @@ public class LinkedListArithmetic {
             }
         }
         return tempHead.next;
+    }
+
+    /**
+     * 方法二：递归法
+     * 算法：
+     *
+     * 从链表的头节点 head 开始递归。
+     * 每次递归都负责交换一对节点。由 firstNode 和 secondNode 表示要交换的两个节点。
+     * 下一次递归则是传递的是下一对需要交换的节点。若链表中还有节点，则继续递归。
+     * 交换了两个节点以后，返回 secondNode，因为它是交换后的新头。
+     * 在所有节点交换完成以后，我们返回交换后的头，实际上是原始链表的第二个节点。
+     *
+     * 作者：LeetCode
+     * 链接：https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-19/
+     * 来源：力扣（LeetCode）
+     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+     * 时间复杂度：O(N)O(N)，其中 NN 指的是链表的节点数量。
+     * 空间复杂度：O(N)O(N)，递归过程使用的堆栈空间。
+     */
+    public ListNode swapPairs2(ListNode head){
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode next = head.next;
+        head.next = swapPairs2(next.next);
+        next.next = head;
+        return next;
     }
 
 }
