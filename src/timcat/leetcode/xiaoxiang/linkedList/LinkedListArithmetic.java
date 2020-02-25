@@ -976,24 +976,25 @@ public class LinkedListArithmetic {
     /**
      * 24. 两两交换链表中的节点
      * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
-     *
+     * <p>
      * 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
-     *
-     *
-     *
+     * <p>
+     * <p>
+     * <p>
      * 示例:
-     *
+     * <p>
      * 给定 1->2->3->4, 你应该返回 2->1->4->3.
+     *
      * @param head 要进行交换的链表的头指针
      * @return 新的链表的头指针
-     *
+     * <p>
      * 复杂度分析
      * 时间复杂度：O(N)，其中 NN 指的是链表的节点数量。
      * 空间复杂度：O(1)。
      * 链接：https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-19/
      */
     public ListNode swapPairs(ListNode head) {
-        if(head == null){
+        if (head == null) {
             return null;
         }
         ListNode tempHead = new ListNode(0);
@@ -1002,7 +1003,7 @@ public class LinkedListArithmetic {
         ListNode current = tempHead.next;
         ListNode next = current.next;
         ListNode post;
-        while(current != null && next != null){
+        while (current != null && next != null) {
             post = next.next;
             current.next = post;
             pre.next = next;
@@ -1011,7 +1012,7 @@ public class LinkedListArithmetic {
             // 指针移动
             pre = current;
             current = post;
-            if(current != null){
+            if (current != null) {
                 next = current.next;
             }
         }
@@ -1021,13 +1022,13 @@ public class LinkedListArithmetic {
     /**
      * 方法二：递归法
      * 算法：
-     *
+     * <p>
      * 从链表的头节点 head 开始递归。
      * 每次递归都负责交换一对节点。由 firstNode 和 secondNode 表示要交换的两个节点。
      * 下一次递归则是传递的是下一对需要交换的节点。若链表中还有节点，则继续递归。
      * 交换了两个节点以后，返回 secondNode，因为它是交换后的新头。
      * 在所有节点交换完成以后，我们返回交换后的头，实际上是原始链表的第二个节点。
-     *
+     * <p>
      * 作者：LeetCode
      * 链接：https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-19/
      * 来源：力扣（LeetCode）
@@ -1035,14 +1036,67 @@ public class LinkedListArithmetic {
      * 时间复杂度：O(N)O(N)，其中 NN 指的是链表的节点数量。
      * 空间复杂度：O(N)O(N)，递归过程使用的堆栈空间。
      */
-    public ListNode swapPairs2(ListNode head){
-        if(head == null || head.next == null){
+    public ListNode swapPairs2(ListNode head) {
+        if (head == null || head.next == null) {
             return head;
         }
         ListNode next = head.next;
         head.next = swapPairs2(next.next);
         next.next = head;
         return next;
+    }
+
+    /**
+     * 25. K 个一组翻转链表
+     * 给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
+     * <p>
+     * k 是一个正整数，它的值小于或等于链表的长度。
+     * <p>
+     * 如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。
+     * <p>
+     * 示例 :
+     * <p>
+     * 给定这个链表：1->2->3->4->5
+     * <p>
+     * 当 k = 2 时，应当返回: 2->1->4->3->5
+     * <p>
+     * 当 k = 3 时，应当返回: 3->2->1->4->5
+     * <p>
+     * 说明 :
+     * <p>
+     * 你的算法只能使用常数的额外空间。
+     * 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+     *
+     * @param head 所要反转的链表的头指针
+     * @param k    为一组的常数k
+     * @return 新的链表的头指针
+     */
+    public ListNode reverseKGroup(ListNode head, int k) {
+        ListNode tempHead = new ListNode(0);
+        tempHead.next = head;
+        ListNode tempNode = tempHead;
+        ListNode pre = tempHead;
+        ListNode post;
+        // 指向反转完成部分的链表的最后一个节点
+        ListNode newPartTail;
+        while (tempNode != null) {
+            int i;
+            for (i = 0; i < k && tempNode != null; i++) {
+                tempNode = tempNode.next;
+            }
+            if(k == i && tempNode != null){
+                post = tempNode.next;
+                newPartTail = pre.next;
+                // 将要逆置的部分的最后一个节点指向空
+                tempNode.next = null;
+                pre.next = reverseList(pre.next);
+                newPartTail.next = post;
+                // 逆置完成后再将tempNode的指向将要逆置下部分的上一个结点，即逆置完成部分的最后一个节点
+                tempNode = newPartTail;
+                pre = newPartTail;
+            }
+        }
+        return tempHead.next;
     }
 
 }
