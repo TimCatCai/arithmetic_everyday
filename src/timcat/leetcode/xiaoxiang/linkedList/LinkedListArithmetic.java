@@ -973,6 +973,45 @@ public class LinkedListArithmetic {
         return newHead;
     }
 
+    /**
+     * 24. 两两交换链表中的节点
+     * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
+     *
+     * 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+     *
+     *
+     *
+     * 示例:
+     *
+     * 给定 1->2->3->4, 你应该返回 2->1->4->3.
+     * @param head 要进行交换的链表的头指针
+     * @return 新的链表的头指针
+     */
+    public ListNode swapPairs(ListNode head) {
+        if(head == null){
+            return null;
+        }
+        ListNode tempHead = new ListNode(0);
+        tempHead.next = head;
+        ListNode pre = tempHead;
+        ListNode current = tempHead.next;
+        ListNode next = current.next;
+        ListNode post;
+        while(current != null && next != null){
+            post = next.next;
+            current.next = post;
+            pre.next = next;
+            next.next = current;
+
+            // 指针移动
+            pre = current;
+            current = post;
+            if(current != null){
+                next = current.next;
+            }
+        }
+        return tempHead.next;
+    }
 
 }
 
