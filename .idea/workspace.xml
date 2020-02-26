@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 21. Merge Two Sorted Lists">
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 83. Remove Duplicates from Sorted List">
+      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/linkedList/LinkedListArithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="timcat &lt;1264299131@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -44,7 +50,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -189,7 +195,77 @@
       <option name="project" value="LOCAL" />
       <updated>1582553351172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit leetcode 86. Partition List">
+      <created>1582593278382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582593278382</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit leetcode 138 &amp; 35. Copy List with Random Pointer">
+      <created>1582599701418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582599701418</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update leetcode commit leetcode 138 &amp; 35. Copy List with Random Pointer(new solutions)">
+      <created>1582610843936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582610843936</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit leetcode 23. Merge k Sorted Lists">
+      <created>1582612075750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582612075750</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit leetcode 24. Swap Nodes in Pairs iterate method">
+      <created>1582618466807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582618466807</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit leetcode 24. Swap Nodes in Pairs(recursion method)">
+      <created>1582619234855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582619234855</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit leetcode 25. Reverse Nodes in k-Group">
+      <created>1582623039317</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582623039317</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit leetcode 61. Rotate List">
+      <created>1582626666120</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582626666120</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit leetcode 83. Remove Duplicates from Sorted List">
+      <created>1582626749759</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582626749759</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit leetcode 82. Remove Duplicates from Sorted List II">
+      <created>1582628786711</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582628786711</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,17 +288,31 @@
     <MESSAGE value="finish if linkedList hasCycle and commit leetcode" />
     <MESSAGE value="commit leetcode 19 Remove Nth Node From End of List" />
     <MESSAGE value="commit leetcode 21. Merge Two Sorted Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 21. Merge Two Sorted Lists" />
+    <MESSAGE value="commit leetcode 86. Partition List" />
+    <MESSAGE value="commit leetcode 138 &amp; 35. Copy List with Random Pointer" />
+    <MESSAGE value="update leetcode commit leetcode 138 &amp; 35. Copy List with Random Pointer(new solutions)" />
+    <MESSAGE value="commit leetcode 23. Merge k Sorted Lists" />
+    <MESSAGE value="commit leetcode 24. Swap Nodes in Pairs iterate method" />
+    <MESSAGE value="commit leetcode 24. Swap Nodes in Pairs(recursion method)" />
+    <MESSAGE value="commit leetcode 25. Reverse Nodes in k-Group" />
+    <MESSAGE value="commit leetcode 61. Rotate List" />
+    <MESSAGE value="commit leetcode 83. Remove Duplicates from Sorted List" />
+    <MESSAGE value="commit leetcode 82. Remove Duplicates from Sorted List II" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 82. Remove Duplicates from Sorted List II" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582593684237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582593684237" />
     <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581997781665">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1581997781665" />
-    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582513835548">
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582603507349">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1582513835548" />
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1582603507349" />
     <state x="387" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578322050946">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -231,18 +321,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="543" y="276" width="467" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1582012051980" />
+    <state x="588" y="282" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1582618171119">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="588" y="282" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.834@0.0.1536.834" timestamp="1582618171119" />
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582010571457">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582010571457" />
-    <state x="446" y="20" key="CommitChangelistDialog2" timestamp="1582554993693">
+    <state x="446" y="19" key="CommitChangelistDialog2" timestamp="1582634053846">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="446" y="20" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582554993693" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1577522796754">
+    <state x="446" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582634053846" />
+    <state x="194" y="80" key="DiffContextDialog" timestamp="1582599696068">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1577522796754" />
+    <state x="194" y="80" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1582599696068" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1582636640244">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582636640244" />
     <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1578409795246">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -275,18 +373,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="569" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1582551784119">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1582687089531">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582551784119" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582555027561">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582687089531" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582628797962">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582555027561" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582590690238">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582628797962" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582678906072">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582590690238" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582678906072" />
     <state x="562" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582009183200">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
