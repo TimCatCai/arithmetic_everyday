@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 83. Remove Duplicates from Sorted List">
-      <change afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" afterDir="false" />
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 20. Valid Parentheses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timcat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,9 +135,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.BagArithmeticTest.printTable" />
-      <item itemvalue="JUnit.BagArithmeticTest.napsack" />
       <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
+      <item itemvalue="JUnit.BagArithmeticTest.napsack" />
+      <item itemvalue="JUnit.BagArithmeticTest.printTable" />
       <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
     </list>
     <recent_temporary>
@@ -265,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582628786711</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit leetcode 20. Valid Parentheses">
+      <created>1582714976163</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582714976163</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +304,8 @@
     <MESSAGE value="commit leetcode 61. Rotate List" />
     <MESSAGE value="commit leetcode 83. Remove Duplicates from Sorted List" />
     <MESSAGE value="commit leetcode 82. Remove Duplicates from Sorted List II" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 82. Remove Duplicates from Sorted List II" />
+    <MESSAGE value="commit leetcode 20. Valid Parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 20. Valid Parentheses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582593684237">
@@ -309,10 +316,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1581997781665" />
-    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582603507349">
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582775097681">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1582603507349" />
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1582775097681" />
     <state x="387" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578322050946">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -329,10 +336,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582010571457" />
-    <state x="446" y="19" key="CommitChangelistDialog2" timestamp="1582634053846">
+    <state x="446" y="19" key="CommitChangelistDialog2" timestamp="1582714973215">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="446" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582634053846" />
+    <state x="446" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582714973215" />
     <state x="194" y="80" key="DiffContextDialog" timestamp="1582599696068">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -373,18 +380,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="569" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1582687089531">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1582775041906">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582687089531" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582775041906" />
     <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582628797962">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582628797962" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582678906072">
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582775015537">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582678906072" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582775015537" />
     <state x="562" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582009183200">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
