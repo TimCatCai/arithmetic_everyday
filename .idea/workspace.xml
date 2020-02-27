@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 20. Valid Parentheses">
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" afterDir="false" />
     </list>
@@ -135,9 +135,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
-      <item itemvalue="JUnit.BagArithmeticTest.napsack" />
       <item itemvalue="JUnit.BagArithmeticTest.printTable" />
+      <item itemvalue="JUnit.BagArithmeticTest.napsack" />
+      <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
       <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
     </list>
     <recent_temporary>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582714976163</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks">
+      <created>1582776029257</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582776029257</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +312,8 @@
     <MESSAGE value="commit leetcode 83. Remove Duplicates from Sorted List" />
     <MESSAGE value="commit leetcode 82. Remove Duplicates from Sorted List II" />
     <MESSAGE value="commit leetcode 20. Valid Parentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 20. Valid Parentheses" />
+    <MESSAGE value="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582593684237">
@@ -336,10 +344,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582010571457" />
-    <state x="446" y="19" key="CommitChangelistDialog2" timestamp="1582714973215">
+    <state x="446" y="19" key="CommitChangelistDialog2" timestamp="1582787398115">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="446" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582714973215" />
+    <state x="446" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582787398115" />
     <state x="194" y="80" key="DiffContextDialog" timestamp="1582599696068">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
