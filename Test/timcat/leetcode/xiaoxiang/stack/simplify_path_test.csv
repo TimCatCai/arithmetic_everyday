@@ -1,0 +1,5 @@
+/home/,/home
+/../,/
+/home//foo/,/home/foo
+/a/./b/../../c/,/c
+/a/../../b/../c//.//,/c

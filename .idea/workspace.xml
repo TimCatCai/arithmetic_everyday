@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks">
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 155. Min Stack 面试题30.">
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/StackArithmeticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/simplify_path_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/stack_trap3_test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" afterDir="false" />
     </list>
@@ -14,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="timcat.leetcode.xiaoxiang.stack" />
       <recent name="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
       <recent name="timcat.leetcode.dynamic_programming" />
       <recent name="timcat.leetcode.day1" />
@@ -61,18 +65,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BagArithmeticTest.MFKnapsack">
+  <component name="RunManager" selected="JUnit.StackArithmeticTest.simplifyPath">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timcat.Main" />
-      <module name="arithmetic_everyday" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -91,22 +87,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BagArithmeticTest.napsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackArithmeticTest.simplifyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
-      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
-      <option name="METHOD_NAME" value="napsack(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.xiaoxiang.stack" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.xiaoxiang.stack.StackArithmeticTest" />
+      <option name="METHOD_NAME" value="simplifyPath(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BagArithmeticTest.printTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackArithmeticTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
-      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
-      <option name="METHOD_NAME" value="printTable([Ljava.lang.String;,int[][])" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.xiaoxiang.stack" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.xiaoxiang.stack.StackArithmeticTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackArithmeticTest.trap3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.xiaoxiang.stack" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.xiaoxiang.stack.StackArithmeticTest" />
+      <option name="METHOD_NAME" value="trap3(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackArithmeticTest.trap4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.xiaoxiang.stack" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.xiaoxiang.stack.StackArithmeticTest" />
+      <option name="METHOD_NAME" value="trap4(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -120,33 +138,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="timcat.data_structure.list.LinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="arithmetic_everyday" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="timcat.data_structure.list.LinkedListKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.BagArithmeticTest.printTable" />
-      <item itemvalue="JUnit.BagArithmeticTest.napsack" />
       <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
-      <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
+      <item itemvalue="JUnit.StackArithmeticTest.trap3" />
+      <item itemvalue="JUnit.StackArithmeticTest.trap4" />
+      <item itemvalue="JUnit.StackArithmeticTest.test" />
+      <item itemvalue="JUnit.StackArithmeticTest.simplifyPath" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackArithmeticTest.simplifyPath" />
+        <item itemvalue="JUnit.StackArithmeticTest.test" />
+        <item itemvalue="JUnit.StackArithmeticTest.trap4" />
+        <item itemvalue="JUnit.StackArithmeticTest.trap3" />
         <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
-        <item itemvalue="JUnit.BagArithmeticTest.napsack" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BagArithmeticTest.printTable" />
-        <item itemvalue="Kotlin.timcat.data_structure.list.LinkedListKt" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582776029257</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="commit leetcode 155. Min Stack 面试题30.">
+      <created>1582787400625</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582787400625</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,7 +325,8 @@
     <MESSAGE value="commit leetcode 82. Remove Duplicates from Sorted List II" />
     <MESSAGE value="commit leetcode 20. Valid Parentheses" />
     <MESSAGE value="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks" />
+    <MESSAGE value="commit leetcode 155. Min Stack 面试题30." />
+    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 155. Min Stack 面试题30." />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582593684237">
@@ -344,10 +357,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582010571457" />
-    <state x="446" y="19" key="CommitChangelistDialog2" timestamp="1582787398115">
+    <state x="463" y="0" width="738" height="667" key="CommitChangelistDialog2" timestamp="1582900170688">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="446" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582787398115" />
+    <state x="463" y="0" width="738" height="667" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582900170688" />
+    <state width="420" height="438" key="DebuggerActiveHint" timestamp="1582896533759">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="420" height="438" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1582896533759" />
     <state x="194" y="80" key="DiffContextDialog" timestamp="1582599696068">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -356,38 +373,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582636640244" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1578409795246">
+    <state width="1493" height="406" key="GridCell.Tab.0.bottom" timestamp="1582900049462">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578409795246" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1578409795245">
+    <state width="1493" height="406" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
+    <state width="1493" height="406" key="GridCell.Tab.0.center" timestamp="1582900049462">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578409795245" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1578409795245">
+    <state width="1493" height="406" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
+    <state width="1493" height="406" key="GridCell.Tab.0.left" timestamp="1582900049462">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578409795245" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1578409795246">
+    <state width="1493" height="406" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
+    <state width="1493" height="406" key="GridCell.Tab.0.right" timestamp="1582900049462">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795246" />
-    <state width="1493" height="569" key="GridCell.Tab.1.bottom" timestamp="1578409795242">
+    <state width="1493" height="406" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
+    <state width="1493" height="344" key="GridCell.Tab.1.bottom" timestamp="1582896744764">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="569" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
-    <state width="1493" height="569" key="GridCell.Tab.1.center" timestamp="1578409795242">
+    <state width="1493" height="344" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582896744764" />
+    <state width="1493" height="344" key="GridCell.Tab.1.center" timestamp="1582896744763">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="569" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
-    <state width="1493" height="569" key="GridCell.Tab.1.left" timestamp="1578409795242">
+    <state width="1493" height="344" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582896744763" />
+    <state width="1493" height="344" key="GridCell.Tab.1.left" timestamp="1582896744763">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="569" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
-    <state width="1493" height="569" key="GridCell.Tab.1.right" timestamp="1578409795242">
+    <state width="1493" height="344" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582896744763" />
+    <state width="1493" height="344" key="GridCell.Tab.1.right" timestamp="1582896744764">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="569" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1578409795242" />
+    <state width="1493" height="344" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582896744764" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1582775041906">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -396,18 +413,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582628797962" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582775015537">
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582884181623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582775015537" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582884181623" />
     <state x="562" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582009183200">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="562" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1582009183200" />
-    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578409241763">
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582899936910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1578409241763" />
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1582899936910" />
     <state x="178" y="112" key="new project wizard" timestamp="1577522880933">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
