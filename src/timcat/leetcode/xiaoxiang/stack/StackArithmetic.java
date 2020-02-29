@@ -1,6 +1,7 @@
 package timcat.leetcode.xiaoxiang.stack;
 
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -463,6 +464,122 @@ public class StackArithmetic {
     }
 
     /**
+     * 407. 接雨水 II
+     * 给定一个 m x n 的矩阵，其中的值均为正整数，代表二维高度图每个单元的高度，请计算图中形状最多能接多少体积的雨水。
+     * <p>
+     * <p>
+     * <p>
+     * 说明:
+     * <p>
+     * m 和 n 都是小于110的整数。每一个单位的高度都大于 0 且小于 20000。
+     * <p>
+     * <p>
+     * <p>
+     * 示例：
+     * <p>
+     * 给出如下 3x6 的高度图:
+     * [
+     * [1,4,3,1,3,2],
+     * [3,2,1,3,2,4],
+     * [2,3,3,2,3,1]
+     * ]
+     * <p>
+     * 返回 4。
+     * <p>
+     * <p>
+     * 如上图所示，这是下雨前的高度图[[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]] 的状态。
+     * <p>
+     * <p>
+     * <p>
+     * <p>
+     * <p>
+     * 下雨后，雨水将会被存储在这些方块中。总的接雨水量是4。
+     */
+    class TrapNode implements Comparable<TrapNode> {
+        int x;
+        int y;
+        int height;
+        boolean visited;
+
+        public TrapNode(int x, int y, int height) {
+            this.x = x;
+            this.y = y;
+            this.height = height;
+            this.visited = false;
+        }
+
+        @Override
+        public int compareTo(TrapNode o) {
+            return this.height - o.height;
+        }
+    }
+
+    public int trapRainWater(int[][] heightMap) {
+        if(heightMap == null || heightMap.length == 0){
+            return 0;
+        }
+        // 创建结点列表
+        TrapNode[][] trapNodes = new TrapNode[heightMap.length][heightMap[0] .length];
+        for (int i = 0; i < trapNodes.length; i++) {
+            for (int j = 0; j < trapNodes[i].length; j++) {
+                trapNodes[i][j] = new TrapNode(i, j, heightMap[i][j]);
+            }
+        }
+        PriorityQueue<TrapNode> priorityQueue = new PriorityQueue<>();
+        // 访问四周所有元素
+        // 第一行和最后一行
+        for (int i = 0; i < trapNodes[0].length; i++) {
+            visit(priorityQueue, trapNodes, 0, i);
+            visit(priorityQueue, trapNodes, trapNodes.length - 1, i);
+        }
+        // 左边和右边
+        for (int i = 1; i < trapNodes.length - 1; i++) {
+            visit(priorityQueue, trapNodes, i, 0);
+            visit(priorityQueue, trapNodes, i, trapNodes[0].length - 1);
+        }
+
+        int currentMax = Integer.MIN_VALUE;
+        TrapNode head;
+        int sum = 0;
+        while (!priorityQueue.isEmpty()) {
+            head = priorityQueue.poll();
+            if (head.height >= currentMax) {
+                // 更新最大值
+                currentMax = head.height;
+            } else {
+                // 遇到比当前最大值小的，计算其能装的水量
+                sum += currentMax - head.height;
+            }
+            visitAround(trapNodes, priorityQueue, head, currentMax);
+        }
+        return sum;
+    }
+
+    private void visitAround(TrapNode[][] trapNodes, PriorityQueue<TrapNode> priorityQueue, TrapNode node, int currentMax) {
+        int x = node.x;
+        int y = node.y;
+        visit(priorityQueue, trapNodes, x - 1, y);
+        visit(priorityQueue, trapNodes, x + 1, y);
+        visit(priorityQueue, trapNodes, x, y - 1);
+        visit(priorityQueue, trapNodes, x, y + 1);
+    }
+
+    private void visit(PriorityQueue<TrapNode> priorityQueue, TrapNode[][] trapNodes, int x, int y) {
+        // 若下标越界，直接返回
+        if (x < 0 || y < 0 || x >= trapNodes.length || y >= trapNodes[0].length) {
+            return;
+        }
+        TrapNode node = trapNodes[x][y];
+        // 该节点若已经访问过，则直接返回；
+        if (node.visited) {
+            return;
+        }
+        priorityQueue.add(node);
+        node.visited = true;
+    }
+
+
+    /**
      * 71. 简化路径
      * 以 Unix 风格给出一个文件的绝对路径，你需要简化它。或者换句话说，将其转换为规范路径。
      * <p>
@@ -504,6 +621,8 @@ public class StackArithmetic {
         if (path == null) {
             return null;
         }
+
+        // split函数会将最后的分割符都去掉，e.g: /a/../../b/../c//.//,最后是没有空字符串的，中间会有空字符串
         String[] spiltStrings = path.split("/");
         Stack<String> stack = new Stack<>();
         String temp;
@@ -531,7 +650,7 @@ public class StackArithmetic {
             result.insert(0, "/");
             result.insert(1, stack.pop());
         }
-        if(result.length() == 0){
+        if (result.length() == 0) {
             result.append("/");
         }
         return result.toString();

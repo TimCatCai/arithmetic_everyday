@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 155. Min Stack 面试题30.">
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/StackArithmeticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/simplify_path_test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/stack_trap3_test.csv" afterDir="false" />
+    <list default="true" id="b10be8a8-60b1-4b8b-9458-2bf43eccae8c" name="Default" comment="commit leetcode 42. Trapping Rain Water &amp;&amp; 71. Simplify Path">
+      <change afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/trap_rain_water_test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/StackArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/timcat/leetcode/xiaoxiang/stack/StackArithmeticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timcat/leetcode/xiaoxiang/stack/StackArithmetic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -65,24 +65,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackArithmeticTest.simplifyPath">
+  <component name="RunManager" selected="JUnit.StackArithmeticTest.trapRainWater">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BagArithmeticTest.MFKnapsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arithmetic_everyday" />
-      <option name="PACKAGE_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic" />
-      <option name="MAIN_CLASS_NAME" value="timcat.arithmetic.dynamic_programming.bag_arithmetic.BagArithmeticTest" />
-      <option name="METHOD_NAME" value="MFKnapsack(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackArithmeticTest.trapRainWater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic_everyday" />
+      <option name="PACKAGE_NAME" value="timcat.leetcode.xiaoxiang.stack" />
+      <option name="MAIN_CLASS_NAME" value="timcat.leetcode.xiaoxiang.stack.StackArithmeticTest" />
+      <option name="METHOD_NAME" value="trapRainWater(org.junit.jupiter.params.aggregator.ArgumentsAccessor)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -139,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
       <item itemvalue="JUnit.StackArithmeticTest.trap3" />
       <item itemvalue="JUnit.StackArithmeticTest.trap4" />
       <item itemvalue="JUnit.StackArithmeticTest.test" />
       <item itemvalue="JUnit.StackArithmeticTest.simplifyPath" />
+      <item itemvalue="JUnit.StackArithmeticTest.trapRainWater" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackArithmeticTest.trapRainWater" />
         <item itemvalue="JUnit.StackArithmeticTest.simplifyPath" />
         <item itemvalue="JUnit.StackArithmeticTest.test" />
         <item itemvalue="JUnit.StackArithmeticTest.trap4" />
         <item itemvalue="JUnit.StackArithmeticTest.trap3" />
-        <item itemvalue="JUnit.BagArithmeticTest.MFKnapsack" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582787400625</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit leetcode 42. Trapping Rain Water &amp;&amp; 71. Simplify Path">
+      <created>1582900242410</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1582900242410</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,13 +333,18 @@
     <MESSAGE value="commit leetcode 20. Valid Parentheses" />
     <MESSAGE value="commit leetcode 225. Implement Stack using Queues &amp;&amp; 232. Implement Queue using Stacks" />
     <MESSAGE value="commit leetcode 155. Min Stack 面试题30." />
-    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 155. Min Stack 面试题30." />
+    <MESSAGE value="commit leetcode 42. Trapping Rain Water &amp;&amp; 71. Simplify Path" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit leetcode 42. Trapping Rain Water &amp;&amp; 71. Simplify Path" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582593684237">
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582964635151">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582593684237" />
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1582964635151" />
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582957239281">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582957239281" />
     <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581997781665">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -353,14 +365,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="588" y="282" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.834@0.0.1536.834" timestamp="1582618171119" />
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582010571457">
+    <state x="386" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582957196440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582010571457" />
-    <state x="463" y="0" width="738" height="667" key="CommitChangelistDialog2" timestamp="1582900170688">
+    <state x="386" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1582957196440" />
+    <state x="463" y="0" width="738" height="667" key="CommitChangelistDialog2" timestamp="1582900239402">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="463" y="0" width="738" height="667" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582900170688" />
+    <state x="463" y="0" width="738" height="667" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1582900239402" />
     <state width="420" height="438" key="DebuggerActiveHint" timestamp="1582896533759">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -373,46 +385,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582636640244" />
-    <state width="1493" height="406" key="GridCell.Tab.0.bottom" timestamp="1582900049462">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1582965346182">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
-    <state width="1493" height="406" key="GridCell.Tab.0.center" timestamp="1582900049462">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582965346182" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1582965346182">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
-    <state width="1493" height="406" key="GridCell.Tab.0.left" timestamp="1582900049462">
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582965346182" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1582965346182">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
-    <state width="1493" height="406" key="GridCell.Tab.0.right" timestamp="1582900049462">
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582965346182" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1582965346182">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582900049462" />
-    <state width="1493" height="344" key="GridCell.Tab.1.bottom" timestamp="1582896744764">
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582965346182" />
+    <state width="1493" height="335" key="GridCell.Tab.1.bottom" timestamp="1582964978073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582896744764" />
-    <state width="1493" height="344" key="GridCell.Tab.1.center" timestamp="1582896744763">
+    <state width="1493" height="335" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582964978073" />
+    <state width="1493" height="335" key="GridCell.Tab.1.center" timestamp="1582964978073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582896744763" />
-    <state width="1493" height="344" key="GridCell.Tab.1.left" timestamp="1582896744763">
+    <state width="1493" height="335" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582964978073" />
+    <state width="1493" height="335" key="GridCell.Tab.1.left" timestamp="1582964978073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582896744763" />
-    <state width="1493" height="344" key="GridCell.Tab.1.right" timestamp="1582896744764">
+    <state width="1493" height="335" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582964978073" />
+    <state width="1493" height="335" key="GridCell.Tab.1.right" timestamp="1582964978073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="344" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582896744764" />
+    <state width="1493" height="335" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582964978073" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1582775041906">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582775041906" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582628797962">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582900253758">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582628797962" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1582900253758" />
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582884181623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -421,10 +433,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="562" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1582009183200" />
-    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582899936910">
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582959989745">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1582899936910" />
+    <state x="787" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1582959989745" />
     <state x="178" y="112" key="new project wizard" timestamp="1577522880933">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -55,4 +55,21 @@ class StackArithmeticTest {
         String out = argumentsAccessor.getString(1);
         assertEquals(out, stackArithmetic.simplifyPath(in));
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "trap_rain_water_test.csv")
+    void trapRainWater(ArgumentsAccessor argumentsAccessor) {
+        int m = argumentsAccessor.getInteger(0);
+        int n = argumentsAccessor.getInteger(1);
+        int[][] heightMap = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                heightMap[i][j] = argumentsAccessor.getInteger(i * n + j + 2);
+            }
+        }
+        int result = argumentsAccessor.getInteger(m * n + 2);
+        int computed =  stackArithmetic.trapRainWater(heightMap);
+        System.out.println("result: "+ result + " computed result: " + computed);
+        assertEquals(result,computed);
+    }
 }
